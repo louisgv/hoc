@@ -352,7 +352,67 @@
          ],
          "variations":"Try plum sauce with your chicken fingers!"
       },
-	  {
+	   {  
+         "name":"Hard Boiled Egg",
+         "level":2,
+         "prepTime":4,
+         "cookTime":10,
+         "ingredients":[  
+            {  
+               "name":"Eggs - 3",
+               "img":"http://media.jrn.com/images/b99244621z.1_20140414111226_000_gdk5odal.1-0.jpg"
+            },
+            {  
+               "name":"Water - enough to cover the eggs by 1 inch",
+               "img":"http://www.foodielovesfitness.com/wp-content/uploads/2014/05/glass-of-water.jpg"
+            },
+         ],
+         "tools":[  
+            {  
+               "name":"Pot",
+               "img":"http://ecx.images-amazon.com/images/I/41tbcx2sahL.jpg"
+            },
+         ],
+         "steps":[  
+            {  
+               "name":"Step One",
+               "number":1,
+               "description":"Place eggs in the pot and cover them with cold water by 1 inch.",
+               "img":"http://www.thesimplehomemaker.com/wp-content/uploads/2012/04/100_0279-1024x768.jpg",
+               "timer":false
+            },
+            {  
+               "name":"Step Two",
+               "number":2,
+               "description":"Bring to a boil over medium-high heat.",
+               "img":"http://www.photos-public-domain.com/wp-content/uploads/2012/05/eggs-in-pot-of-boiling-water.jpg",
+               "timer":false
+            },
+            {  
+               "name":"Step Three",
+               "number":3,
+               "description":"Cover and remove from heat. Set aside for 8 to 10 minutes.",
+               "img":"http://content.oveninfo.com/content/13580/OVI-covered-pot.jpg",
+               "timer":false
+            },
+            {  
+               "name":"Step Four",
+               "number":4,
+               "description":"Turn off the stovetop.",
+               "img":"http://www.chemistryland.com/CHM107Lab/Lab7/Slime/OvenOff.jpg",
+               "timer":false
+            },
+            {  
+               "name":"Step Five",
+               "number":5,
+               "description":"Drain the pot. Cool the eggs in ice water. Peel the eggs once cool.",
+               "img":"http://www.simplyrecipes.com/wp-content/uploads/2014/07/hard-boiled-eggs-horiz-800.jpg",
+               "timer":false
+            }
+         ],
+         "variations":"For soft or medium eggs, bring water to a boil and then reduce to low heat. Cook for 5 minutes for soft eggs and 8 minutes for medium eggs."
+      },
+	   {
          "name":"Mashed Potatoes",
          "level":3,
          "prepTime":15,
