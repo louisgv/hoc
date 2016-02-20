@@ -373,7 +373,7 @@
 			{
                "name":"Salt and Pepper - as much as desired to enhance flavor",
                "img":""
-            },
+            }
          ],
          "tools":[
             {
@@ -443,6 +443,83 @@
             }
          ],
          "variations":"Try serving mashed potatoes with gravy and steamed vegetables!"
+      },
+       {
+         "name":"House Salad",
+         "level":3,
+         "prepTime":10,
+         "cookTime":0,
+         "ingredients":[
+            {
+               "name":"Romaine Lettuce - Half Pre-cut Package",
+               "img":""
+            },
+            {
+               "name":"Plum Tomato - 1 Small",
+               "img":""
+            },
+             {
+               "name":"Cucumber - 1/2",
+               "img":""
+            },
+             {
+               "name":"Yellow Onion - 1/2",
+               "img":""
+            },
+             {
+               "name":"Carrot - 1 Large",
+               "img":""
+            },
+             {
+               "name":"Italian Dressing",
+               "img":""
+            }
+         ],
+         "tools":[
+            {
+               "name":"Sharp Knife",
+               "img":""
+            },
+            {
+               "name":"Large Bowl",
+               "img":""
+            },
+            {
+               "name":"Cheese Grater",
+               "img":""
+            }
+         ],
+         "steps":[
+            {
+               "name":"Step One",
+               "number":1,
+               "description":"Dice the cucumber, tomato, and onion. (Dicing means cutting vegetables into small cubes.) Peel the carrot, and use a cheese grater to create shredded carrots.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Two",
+               "number":2,
+               "description":"Add chopped lettuce to large bowl, and top with all the vegetables.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Three",
+               "number":3,
+               "description":"Add as much salad dressing as you desire, and then toss the salad to thoroughly coat vegetables with dressing.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Four",
+               "number":4,
+               "description":"Serve into a smaller bowl, and enjoy!",
+               "img":"",
+               "timer":false
+            }
+         ],
+         "variations":"Add walnuts or croutons to the salad for an added crunch!"
       }
    ]
 }
