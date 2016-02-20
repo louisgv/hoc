@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+  <title>EDIA</title>
+
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'"> -->
+
+  <!-- compiled css output -->
+  <!-- <link href="css/ionic.app.css" rel="stylesheet"> -->
+  <link href="css/ionic.app.min.css" rel="stylesheet">
+
+  <!-- ionic/angularjs js -->
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+  <!-- cordova script (this will be a 404 during development) -->
+  <script src="cordova.js"></script>
+
+  <!-- 3rd party's js -->
+  <script src="lib/angular-sanitize/angular-sanitize.min.js"></script>
+  <script src="lib/angular-socket-io/socket.min.js"></script>
+  <script src="lib/webcamjs/webcam.min.js" charset="utf-8"></script>
+  <script src="lib/ng-camera/dist/ng-camera.js" charset="utf-8"></script>
+
+  <!--Charts.js with Angular Wrapper-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+  <script src="lib/angular-chart.js/dist/angular-chart.js"></script>
+  <link rel="stylesheet" href="lib/angular-chart.js/dist/angular-chart.css">
+
+  <!-- fac's js -->
+  <script src="fac/socket.js"></script>
+  <script src="fac/database.js"></script>
+
+  <!-- com's js -->
+  <script src="com/home/home.js"></script>
+
+  <!-- index's js -->
+  <script src="index.js"></script>
+</head>
+
+<body ng-app="app">
+  <ion-nav-bar class="bar bar-dark">
+    <ion-nav-buttons side="primary">
+      <a ng-href="#/">
+        <button class="button button-clear icon-left ion-happy">
+        </button>
+      </a>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+      <a ng-href="#/">
+        <button class="button button-clear icon-right ion-happy">
+        </button>
+      </a>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-nav-view>
+  </ion-nav-view>
+
+</body>
+
+</html>

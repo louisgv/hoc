@@ -1,0 +1,1196 @@
+{
+  "profile": {
+    "id": "*UNKNOWN*",
+    "source": "*UNKNOWN*",
+    "word_count": 5828,
+    "processed_lang": "en",
+    "tree": {
+      "id": "r",
+      "name": "root",
+      "children": [{
+        "id": "personality",
+        "name": "Big 5",
+        "children": [{
+          "id": "Openness_parent",
+          "name": "Openness",
+          "category": "personality",
+          "percentage": 1,
+          "children": [{
+            "id": "Openness",
+            "name": "Openness",
+            "category": "personality",
+            "percentage": 1,
+            "sampling_error": 0.05106617904,
+            "children": [{
+              "id": "Adventurousness",
+              "name": "Adventurousness",
+              "category": "personality",
+              "percentage": 0.98552381672909,
+              "sampling_error": 0.0450917212
+            }, {
+              "id": "Artistic interests",
+              "name": "Artistic interests",
+              "category": "personality",
+              "percentage": 0.7299096723162549,
+              "sampling_error": 0.09176281648
+            }, {
+              "id": "Emotionality",
+              "name": "Emotionality",
+              "category": "personality",
+              "percentage": 0.027850289568572405,
+              "sampling_error": 0.0423537908
+            }, {
+              "id": "Imagination",
+              "name": "Imagination",
+              "category": "personality",
+              "percentage": 1,
+              "sampling_error": 0.05595375768
+            }, {
+              "id": "Intellect",
+              "name": "Intellect",
+              "category": "personality",
+              "percentage": 1,
+              "sampling_error": 0.048719832080000004
+            }, {
+              "id": "Liberalism",
+              "name": "Authority-challenging",
+              "category": "personality",
+              "percentage": 0.9887840500860642,
+              "sampling_error": 0.07456996616
+            }]
+          }, {
+            "id": "Conscientiousness",
+            "name": "Conscientiousness",
+            "category": "personality",
+            "percentage": 0.8809087977892133,
+            "sampling_error": 0.0656014392,
+            "children": [{
+              "id": "Achievement striving",
+              "name": "Achievement striving",
+              "category": "personality",
+              "percentage": 0.961482324578443,
+              "sampling_error": 0.08819081536
+            }, {
+              "id": "Cautiousness",
+              "name": "Cautiousness",
+              "category": "personality",
+              "percentage": 0.9295255047221007,
+              "sampling_error": 0.08230852016
+            }, {
+              "id": "Dutifulness",
+              "name": "Dutifulness",
+              "category": "personality",
+              "percentage": 0.2944727183245777,
+              "sampling_error": 0.053984286
+            }, {
+              "id": "Orderliness",
+              "name": "Orderliness",
+              "category": "personality",
+              "percentage": 0.009849661313290372,
+              "sampling_error": 0.062108902
+            }, {
+              "id": "Self-discipline",
+              "name": "Self-discipline",
+              "category": "personality",
+              "percentage": 0.7305330486442575,
+              "sampling_error": 0.04182237616
+            }, {
+              "id": "Self-efficacy",
+              "name": "Self-efficacy",
+              "category": "personality",
+              "percentage": 0.948190344671324,
+              "sampling_error": 0.0811473812
+            }]
+          }, {
+            "id": "Extraversion",
+            "name": "Extraversion",
+            "category": "personality",
+            "percentage": 0.032192848783805746,
+            "sampling_error": 0.049172143280000004,
+            "children": [{
+              "id": "Activity level",
+              "name": "Activity level",
+              "category": "personality",
+              "percentage": 0.9029097741433691,
+              "sampling_error": 0.06833365944
+            }, {
+              "id": "Assertiveness",
+              "name": "Assertiveness",
+              "category": "personality",
+              "percentage": 0.07410724794009514,
+              "sampling_error": 0.07241459992
+            }, {
+              "id": "Cheerfulness",
+              "name": "Cheerfulness",
+              "category": "personality",
+              "percentage": 0.020411895284037727,
+              "sampling_error": 0.090600764
+            }, {
+              "id": "Excitement-seeking",
+              "name": "Excitement-seeking",
+              "category": "personality",
+              "percentage": 0.019065723850533255,
+              "sampling_error": 0.07475076256
+            }, {
+              "id": "Friendliness",
+              "name": "Outgoing",
+              "category": "personality",
+              "percentage": 0.04390664273710433,
+              "sampling_error": 0.06686540608
+            }, {
+              "id": "Gregariousness",
+              "name": "Gregariousness",
+              "category": "personality",
+              "percentage": 0.021851843714069005,
+              "sampling_error": 0.05194363816
+            }]
+          }, {
+            "id": "Agreeableness",
+            "name": "Agreeableness",
+            "category": "personality",
+            "percentage": 0.033727831790867316,
+            "sampling_error": 0.0862649724,
+            "children": [{
+              "id": "Altruism",
+              "name": "Altruism",
+              "category": "personality",
+              "percentage": 0.10409644054406311,
+              "sampling_error": 0.0621947584
+            }, {
+              "id": "Cooperation",
+              "name": "Cooperation",
+              "category": "personality",
+              "percentage": 0.7191322956626105,
+              "sampling_error": 0.0721344224
+            }, {
+              "id": "Modesty",
+              "name": "Modesty",
+              "category": "personality",
+              "percentage": 0.039036468813740614,
+              "sampling_error": 0.047661192959999994
+            }, {
+              "id": "Morality",
+              "name": "Uncompromising",
+              "category": "personality",
+              "percentage": 0.06637544477111522,
+              "sampling_error": 0.05553578984
+            }, {
+              "id": "Sympathy",
+              "name": "Sympathy",
+              "category": "personality",
+              "percentage": 0.9596107521726056,
+              "sampling_error": 0.0862040532
+            }, {
+              "id": "Trust",
+              "name": "Trust",
+              "category": "personality",
+              "percentage": 0.29361275171459655,
+              "sampling_error": 0.04871139288
+            }]
+          }, {
+            "id": "Neuroticism",
+            "name": "Emotional range",
+            "category": "personality",
+            "percentage": 0.08349924852661325,
+            "sampling_error": 0.07862045512,
+            "children": [{
+              "id": "Anger",
+              "name": "Fiery",
+              "category": "personality",
+              "percentage": 0.10273314135290748,
+              "sampling_error": 0.08263003936
+            }, {
+              "id": "Anxiety",
+              "name": "Prone to worry",
+              "category": "personality",
+              "percentage": 0.009687975398332316,
+              "sampling_error": 0.04771919744
+            }, {
+              "id": "Depression",
+              "name": "Melancholy",
+              "category": "personality",
+              "percentage": 0.12335564816893316,
+              "sampling_error": 0.0500585868
+            }, {
+              "id": "Immoderation",
+              "name": "Immoderation",
+              "category": "personality",
+              "percentage": 0.03110660477626219,
+              "sampling_error": 0.047027228399999996
+            }, {
+              "id": "Self-consciousness",
+              "name": "Self-consciousness",
+              "category": "personality",
+              "percentage": 0.34394168796193353,
+              "sampling_error": 0.048888711599999995
+            }, {
+              "id": "Vulnerability",
+              "name": "Susceptible to stress",
+              "category": "personality",
+              "percentage": 0.008792702486508631,
+              "sampling_error": 0.07391466015999999
+            }]
+          }]
+        }]
+      }, {
+        "id": "needs",
+        "name": "Needs",
+        "children": [{
+          "id": "Ideal_parent",
+          "name": "Ideal",
+          "category": "needs",
+          "percentage": 0.018895950345597677,
+          "children": [{
+            "id": "Challenge",
+            "name": "Challenge",
+            "category": "needs",
+            "percentage": 0.2850334807395444,
+            "sampling_error": 0.0736177764
+          }, {
+            "id": "Closeness",
+            "name": "Closeness",
+            "category": "needs",
+            "percentage": 0.02050809800286571,
+            "sampling_error": 0.07287379088
+          }, {
+            "id": "Curiosity",
+            "name": "Curiosity",
+            "category": "needs",
+            "percentage": 0.08766388325669576,
+            "sampling_error": 0.10319969696
+          }, {
+            "id": "Excitement",
+            "name": "Excitement",
+            "category": "needs",
+            "percentage": 0.024464230627319283,
+            "sampling_error": 0.09356396512000001
+          }, {
+            "id": "Harmony",
+            "name": "Harmony",
+            "category": "needs",
+            "percentage": 0.06755969433043695,
+            "sampling_error": 0.09304359136
+          }, {
+            "id": "Ideal",
+            "name": "Ideal",
+            "category": "needs",
+            "percentage": 0.018895950345597677,
+            "sampling_error": 0.08417925
+          }, {
+            "id": "Liberty",
+            "name": "Liberty",
+            "category": "needs",
+            "percentage": 0.03845795402104398,
+            "sampling_error": 0.1254143744
+          }, {
+            "id": "Love",
+            "name": "Love",
+            "category": "needs",
+            "percentage": 0.16440225181133106,
+            "sampling_error": 0.0852600032
+          }, {
+            "id": "Practicality",
+            "name": "Practicality",
+            "category": "needs",
+            "percentage": 0.17196806111871618,
+            "sampling_error": 0.07547063064
+          }, {
+            "id": "Self-expression",
+            "name": "Self-expression",
+            "category": "needs",
+            "percentage": 0.41666870776147424,
+            "sampling_error": 0.07195536496
+          }, {
+            "id": "Stability",
+            "name": "Stability",
+            "category": "needs",
+            "percentage": 0.022895416659087155,
+            "sampling_error": 0.09215879448
+          }, {
+            "id": "Structure",
+            "name": "Structure",
+            "category": "needs",
+            "percentage": 0.10656750239891746,
+            "sampling_error": 0.06976541112
+          }]
+        }]
+      }, {
+        "id": "values",
+        "name": "Values",
+        "children": [{
+          "id": "Self-enhancement_parent",
+          "name": "Self-enhancement",
+          "category": "values",
+          "percentage": 0.9593062885464066,
+          "children": [{
+            "id": "Conservation",
+            "name": "Conservation",
+            "category": "values",
+            "percentage": 0.487704853448343,
+            "sampling_error": 0.062345420719999996
+          }, {
+            "id": "Openness to change",
+            "name": "Openness to change",
+            "category": "values",
+            "percentage": 0.5226965717745208,
+            "sampling_error": 0.056531415280000004
+          }, {
+            "id": "Hedonism",
+            "name": "Hedonism",
+            "category": "values",
+            "percentage": 0.11616638198179,
+            "sampling_error": 0.11583684664
+          }, {
+            "id": "Self-enhancement",
+            "name": "Self-enhancement",
+            "category": "values",
+            "percentage": 0.9593062885464066,
+            "sampling_error": 0.08894979352
+          }, {
+            "id": "Self-transcendence",
+            "name": "Self-transcendence",
+            "category": "values",
+            "percentage": 0.06981229260860243,
+            "sampling_error": 0.06660842087999999
+          }]
+        }]
+      }]
+    }
+  },
+  "conceptCollection": [{
+    "level": 0,
+    "keyword": "Viral",
+    "concepts": [{
+      "score": 0.962559,
+      "concept": {
+        "abstract": "A virus is a small infectious agent that can replicate only inside the living cells of an organism. Viruses can infect all types of organism, from animals and plants to bacteria and archaea. Since Dmitri Ivanovsky's 1892 article describing a non-bacterial pathogen infecting tobacco plants, and the discovery of the tobacco mosaic virus by Martinus Beijerinck in 1898, about 5,000 viruses have been described in detail, although there are millions of different types.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Virus",
+        "label": "Virus",
+        "ontology": ["Species"]
+      }
+    }, {
+      "score": 0.898774,
+      "concept": {
+        "abstract": "In modern molecular biology and genetics, the genome is the entirety of an organism's hereditary information. It is encoded either in DNA or, for many types of virus, in RNA. The genome includes both the genes and the non-coding sequences of the DNA/RNA.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Genome",
+        "label": "Genome"
+      }
+    }, {
+      "score": 0.8532029,
+      "concept": {
+        "abstract": "Depeche Mode are an English electronic music band formed in 1980 in Basildon, Essex. The group's original line-up consisted of Dave Gahan (lead vocals, occasional songwriter since 2005), Martin Gore (keyboards, guitar, vocals, chief songwriter after 1981), Andy Fletcher (keyboards) and Vince Clarke (keyboards, chief songwriter 1980Ã¢â‚¬â€œ81).",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Depeche_Mode",
+        "label": "Depeche Mode",
+        "ontology": ["Band", "Organisation", "Agent"]
+      }
+    }, {
+      "score": 0.8331617,
+      "concept": {
+        "abstract": "A brain tumor, or tumour, is an intracranial solid neoplasm, a tumor (defined as an abnormal growth of cells) within the brain or the central spinal canal. Brain tumors include all tumors inside the cranium or in the central spinal canal. They are created by an abnormal and uncontrolled cell division, usually in the brain itself, but also in lymphatic tissue, in blood vessels, in the cranial nerves, in the brain envelopes, skull, pituitary gland, or pineal gland.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Brain_tumor",
+        "label": "Brain tumor",
+        "ontology": ["Disease"]
+      }
+    }, {
+      "score": 0.8224925,
+      "concept": {
+        "abstract": "Tiruchirappalli (spelt as Trichinopoly in the records of British India), also called Tiruchi or Trichy, is a city in the Indian state of Tamil Nadu and the administrative headquarters of Tiruchirappalli District. It is the fourth largest municipal corporation in Tamil Nadu and also the fourth largest urban agglomeration in the state.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Tiruchirappalli",
+        "label": "Tiruchirappalli",
+        "ontology": ["City", "Settlement", "PopulatedPlace", "Place"]
+      }
+    }, {
+      "score": 0.78162986,
+      "concept": {
+        "abstract": "A social networking service is an online service, platform, or site that focuses on facilitating the building of social networks or social relations among people who, for example, share interests, activities, backgrounds, or real-life connections. A social network service consists of a representation of each user (often a profile), his/her social links, and a variety of additional services.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Social_networking_service",
+        "label": "Social networking service"
+      }
+    }, {
+      "score": 0.780187,
+      "concept": {
+        "abstract": "Ribonucleic acid /raÃ‰ÂªbÃ‰Âµ. njuÃ‹ÂÃ‹Å’kleÃ‰Âª. Ã‰Â¨k Ã‹Ë†ÃƒÂ¦sÃ‰Âªd/, or RNA, is part of a group of molecules known as the nucleic acids, which are one of the four major macromolecules essential for all known forms of life. Like DNA, RNA is made up of a long chain of components called nucleotides. Each nucleotide consists of a nucleobase, a ribose sugar, and a phosphate group. The sequence of nucleotides allows RNA to encode genetic information.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/RNA",
+        "label": "RNA"
+      }
+    }, {
+      "score": 0.7772592,
+      "concept": {
+        "abstract": "The \"life cycle\" of an mRNA in a eukaryotic cell. RNA is transcribed in the nucleus; processed, it is transported to the cytoplasm and translated by the ribosome. At the end of its life, the mRNA is degraded. ]] Messenger RNA (mRNA) is a molecule of RNA that encodes a chemical \"blueprint\" for a protein product. mRNA is transcribed from a DNA template, and carries coding information to the sites of protein synthesis, the ribosomes.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Messenger_RNA",
+        "label": "Messenger RNA"
+      }
+    }, {
+      "score": 0.7579462,
+      "concept": {
+        "abstract": "Transcription is the process of creating a complementary RNA copy of a sequence of DNA. Both RNA and DNA are nucleic acids, which use base pairs of nucleotides as a complementary language that can be converted back and forth from DNA to RNA by the action of the correct enzymes. During transcription, a DNA sequence is read by an RNA polymerase, which produces a complementary, antiparallel RNA strand.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Transcription_(genetics)",
+        "label": "Transcription (genetics)"
+      }
+    }]
+  }, {
+    "level": 1,
+    "keyword": "Viral",
+    "concepts": [{
+      "score": 0.99391395,
+      "concept": {
+        "abstract": "Ray Stevens (born Harold Ray Ragsdale, January 24, 1939) is an American country music, pop singer-songwriter who has become equally well known for his serious material as he has for his novelty songs.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Ray_Stevens",
+        "label": "Ray Stevens",
+        "ontology": ["MusicalArtist", "Artist", "Person", "Agent"]
+      }
+    }, {
+      "score": 0.9926926,
+      "concept": {
+        "abstract": "Virulence is by MeSH definition the degree of pathogenicity within a group or species of parasites as indicated by case fatality rates and/or the ability of the organism to invade the tissues of the host. The pathogenicity of an organism - its ability to cause disease - is determined by its virulence factors. The noun virulence derives from the adjective virulent. Virulent can describe either disease severity or a pathogen's infectivity.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Virulence",
+        "label": "Virulence"
+      }
+    }, {
+      "score": 0.9920905,
+      "concept": {
+        "abstract": "Myalgia, or muscle pain, is a symptom of many diseases and disorders. The most common causes are the overuse or over-stretching of a muscle or group of muscles. Myalgia without a traumatic history is often due to viral infections. Longer-term myalgias may be indicative of a metabolic myopathy, some nutritional deficiencies or chronic fatigue syndrome.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Myalgia",
+        "label": "Myalgia",
+        "ontology": ["Disease"]
+      }
+    }, {
+      "score": 0.9882166,
+      "concept": {
+        "abstract": "Viral marketing, viral advertising, or marketing buzz are buzzwords referring to marketing techniques that use pre-existing social networks to produce increases in brand awareness or to achieve other marketing objectives (such as product sales) through self-replicating viral processes, analogous to the spread of viruses or computer viruses. It can be delivered by word of mouth or enhanced by the network effects of the Internet.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Viral_marketing",
+        "label": "Viral marketing"
+      }
+    }, {
+      "score": 0.9865663,
+      "concept": {
+        "abstract": "A viral video is one that becomes popular through the process of Internet sharing, typically through video sharing websites, social media and email. Viral videos often contain humorous content and include televised comedy sketches, such as The Lonely Island's \"Lazy Sunday\" and \"Dick in a Box\", amateur video clips like Star Wars Kid the Numa Numa videos, The Evolution of Dance, Chocolate Rain on YouTube; and web-only productions such as I Got a Crush... on Obama.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Viral_video",
+        "label": "Viral video"
+      }
+    }, {
+      "score": 0.9839983,
+      "concept": {
+        "abstract": "A computer virus is a computer program that can replicate itself and spread from one computer to another. The term \"virus\" is also commonly, but erroneously, used to refer to other types of malware, including but not limited to adware and spyware programs that do not have a reproductive ability. Malware includes computer viruses, computer worms, Trojan horses, most rootkits, spyware, dishonest adware and other malicious or unwanted software, including true viruses.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Computer_virus",
+        "label": "Computer virus"
+      }
+    }, {
+      "score": 0.98164487,
+      "concept": {
+        "abstract": "For the leaf bug, see Miridae. A capsid is the protein shell of a virus. It consists of several oligomeric structural subunits made of protein called protomers. The observable 3-dimensional morphological subunits, which may or may not correspond to individual proteins, are called capsomeres. The capsid encloses the genetic material of the virus. Capsids are broadly classified according to their structure. The majority of viruses have capsids with either helical or icosahedral structure.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Capsid",
+        "label": "Capsid"
+      }
+    }, {
+      "score": 0.97768027,
+      "concept": {
+        "abstract": "Darren Everett Criss (born February 5, 1987) is an American actor, singer, songwriter, instrumentalist, and composer. He is also a founding member and co-owner of StarKid Productions, a media and musical theater production company based in Chicago, Illinois. He is best known for portraying Blaine Anderson, an openly gay high school student, on the FOX television series Glee.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Darren_Criss",
+        "label": "Darren Criss",
+        "ontology": ["Person", "Agent"]
+      }
+    }, {
+      "score": 0.9692737,
+      "concept": {
+        "abstract": "In the fictional world of the Harry Potter series, the Death Eaters constitute a group of wizards and witches, led by the dark wizard Lord Voldemort, the chief antagonist of the series, who seek to purify the Wizarding community by eliminating the Muggle-borns (wizards or witches born to non-magical parents).",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Death_Eater",
+        "label": "Death Eater"
+      }
+    }]
+  }, {
+    "level": 2,
+    "keyword": "Viral",
+    "concepts": [{
+      "score": 0.9991038,
+      "concept": {
+        "abstract": "Davy and Kristin McGuire are a Bristol based director, designer and performer duo who work in the fields of art, animation, theatre, dance and film-making.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Davy_and_Kristin_McGuire",
+        "label": "Davy and Kristin McGuire"
+      }
+    }, {
+      "score": 0.99844694,
+      "concept": {
+        "abstract": "The nucleocytoplasmic large DNA viruses or NCLDV refers to a number of families of large eukaryotic DNA viruses: Asfarviridae Iridoviridae Marseilleviridae Megaviridae Mimiviridae Phycodnaviridae Poxviridae One unassigned genus Dinodnavirus also belongs to this clade.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Nucleocytoplasmic_large_DNA_viruses",
+        "label": "Nucleocytoplasmic large DNA viruses",
+        "ontology": ["Species"]
+      }
+    }, {
+      "score": 0.9980014,
+      "concept": {
+        "abstract": "The discography of singles and albums released by the American country, pop, and novelty artist Ray Stevens consists of more than 40 studio albums and 93 singles. In his career, Stevens reached the top of the Billboard Hot 100 twice: with \"The Streak\" and \"Everything Is Beautiful\". The former and a cover of the jazz standard \"Misty\" are his biggest hits on the country charts, both reaching number three.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Ray_Stevens_discography",
+        "label": "Ray Stevens discography"
+      }
+    }, {
+      "score": 0.99787635,
+      "concept": {
+        "abstract": "Juli Crockett (born August 1, 1975) is a playwright and theater director, retired (undefeated) professional boxer and amateur champion, lead singer of the alternative country band The Evangenitals, and producer of The 1 Second Film. Born in Coffee County, Enterprise, Alabama she is the daughter of fiction writer Linda Crockett and non-fiction writer Daniel Savage Gray.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Juli_Crockett",
+        "label": "Juli Crockett"
+      }
+    }, {
+      "score": 0.9978144,
+      "concept": {
+        "abstract": "\"Sweet Love\" is a song performed by American recording artist Chris Brown, taken from his upcoming fifth studio album, Fortune (2012). The song was written by Brown, Greg Curtis, Jamal \"Polow da Don\" Jones, Cory Marks, Jason Perry and Tommy Doyle, while production was handled by Polow da Don and Perry. It was sent to urban contemporary radio in the United States on April 10, 2012, as the second single from the album.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Sweet_Love_(Chris_Brown_song)",
+        "label": "Sweet Love (Chris Brown song)",
+        "ontology": ["Single", "MusicalWork", "Work"]
+      }
+    }, {
+      "score": 0.9977529,
+      "concept": {
+        "abstract": "Viral phenomena are objects or patterns able to replicate themselves or convert other objects into copies of themselves when these objects are exposed to them. The concept of something, other than a biological virus, being viral came into vogue just after the Internet became widely popular in the mid-to-late 1990s.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Viral_phenomenon",
+        "label": "Viral phenomenon"
+      }
+    }, {
+      "score": 0.9975107,
+      "concept": {
+        "abstract": "Kadhalil Sodhappuvadhu Yeppadi (titled Love Failure in Telugu) (Tamil: Ã Â®â€¢Ã Â®Â¾Ã Â®Â¤Ã Â®Â²Ã Â®Â¿Ã Â®Â²Ã Â¯Â Ã Â®Å¡Ã Â¯Å Ã Â®Â¤Ã Â®ÂªÃ Â¯ÂÃ Â®ÂªÃ Â¯ÂÃ Â®ÂµÃ Â®Â¤Ã Â¯Â Ã Â®Å½Ã Â®ÂªÃ Â¯ÂÃ Â®ÂªÃ Â®Å¸Ã Â®Â¿, English: How To Mess Up In Love; Telugu: Ã Â°Â²Ã Â°ÂµÃ Â±Â Ã Â°Â«Ã Â±â€ Ã Â°Â¯Ã Â°Â¿Ã Â°Â²Ã Â±ÂÃ Â°Â¯Ã Â±â€šÃ Â°Â°Ã Â±Â) is a 2012 Indian bilingual romantic comedy film based on the same-titled short film directed by debutant Balaji Mohan. Starring Siddharth and Amala Paul, the film was simultaneously produced in both Tamil and Telugu languages. It was released worldwide on 17 February 2012 to high critical acclaim and was declared a hit.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Kadhalil_Sodhappuvadhu_Yeppadi",
+        "label": "Kadhalil Sodhappuvadhu Yeppadi",
+        "ontology": ["Film", "Work"]
+      }
+    }, {
+      "score": 0.99704397,
+      "concept": {
+        "abstract": "Mimivirus is a viral genus containing a single identified species named Acanthamoeba polyphaga mimivirus (APMV), or is a group of phylogenetically related large viruses (designated usually MimiN). In colloquial speech, APMV is more commonly referred to as just Ã¢â‚¬Å“mimivirusÃ¢â‚¬Â. Until October 2011, when a larger virus Megavirus chilensis was described, it had the largest capsid diameter of all known viruses. Mimivirus has a large and complex genome compared with most other viruses.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Mimivirus",
+        "label": "Mimivirus",
+        "ontology": ["Species"]
+      }
+    }, {
+      "score": 0.9968745,
+      "concept": {
+        "abstract": "The Celebrity Apprentice 5 (also known as The Apprentice 12) is the twelfth installment of the United States version of the reality television series The Apprentice. On May 15, 2011, NBC announced that the show would be returning for a fifth season in 2012. The following day, at NBC's annual upfront presentations to advertisers, Donald Trump confirmed that he would be hosting the fifth season.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/The_Apprentice_(U.S._season_12)",
+        "label": "The Apprentice (U.S. season 12)"
+      }
+    }]
+  }, {
+    "level": 3,
+    "keyword": "Viral",
+    "concepts": [{
+      "score": 0.99987197,
+      "concept": {
+        "id": "/graphs/wikipedia/en-20120601/concepts/Viral",
+        "label": "Viral"
+      }
+    }, {
+      "score": 0.9997869,
+      "concept": {
+        "id": "/graphs/wikipedia/en-20120601/concepts/Sick_child_scam",
+        "label": "Sick child scam"
+      }
+    }, {
+      "score": 0.99970466,
+      "concept": {
+        "id": "/graphs/wikipedia/en-20120601/concepts/Karen_Owen",
+        "label": "Karen Owen"
+      }
+    }, {
+      "score": 0.9996243,
+      "concept": {
+        "abstract": "The success of sick child scams and sick baby hoaxes relies on a particular compassion in people towards children. When a child is sick, this particularly touches people's hearts. Professional beggars have been exploiting sick children since ancient times. The Information Age has given a new twist to this kind of deception. An early example of this kind is \"sick child chain letter\": ...",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Sick_baby_hoax",
+        "label": "Sick baby hoax"
+      }
+    }, {
+      "score": 0.9995452,
+      "concept": {
+        "id": "/graphs/wikipedia/en-20120601/concepts/Megavirus_chilensis",
+        "label": "Megavirus chilensis"
+      }
+    }, {
+      "score": 0.99946606,
+      "concept": {
+        "id": "/graphs/wikipedia/en-20120601/concepts/Megaviridae",
+        "label": "Megaviridae"
+      }
+    }, {
+      "score": 0.99938935,
+      "concept": {
+        "abstract": "The 2010 Duke University faux sex thesis controversy arose from a private 42 page Powerpoint document written by a Duke University senior, Karen Owen, in the format of a thesis about her sexual experiences during her time attending the university.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/2010_Duke_University_faux_sex_thesis_controversy",
+        "label": "2010 Duke University faux sex thesis controversy"
+      }
+    }, {
+      "score": 0.999315,
+      "concept": {
+        "abstract": "Megavirus is a viral genus containing a single identified species named Megavirus chilensis (MGVC), phylogenetically related to Acanthamoeba polyphaga Mimivirus (APMV). In colloquial speech, MGVC is more commonly referred to as just Ã¢â‚¬Å“MegavirusÃ¢â‚¬Â. It has the largest capsid diameter of all known viruses, as well as the largest and most complex genome among all known viruses.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Megavirus",
+        "label": "Megavirus",
+        "ontology": ["Species"]
+      }
+    }, {
+      "score": 0.9992427,
+      "concept": {
+        "abstract": "The Mis-Adventures of Awkward Black Girl is an American comedy web series, commonly known as 'Awkward Black Girl' created by and starring, Issa Rae as J. It premiered on YouTube on February 3, 2011. The show follows the life of J as she interacts with co-workers and love interests who place her in uncomfortable situations. The story is told through first-person narrative as J usually reveals how she feels about her circumstances through voice-over or dream sequence.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/The_Mis-Adventures_of_Awkward_Black_Girl",
+        "label": "The Mis-Adventures of Awkward Black Girl",
+        "ontology": ["TelevisionShow", "Work"]
+      }
+    }]
+  }, {
+    "level": 0,
+    "keyword": "Marketer",
+    "concepts": [{
+      "score": 0.9996445,
+      "concept": {
+        "abstract": "Marketing is \"the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large. \" For business to consumer marketing it is \"the process by which companies create value for customers and build strong customer relationships, in order to capture value from customers in return\".",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Marketing",
+        "label": "Marketing"
+      }
+    }, {
+      "score": 0.8269928,
+      "concept": {
+        "abstract": "Advertising is a form of communication used to encourage or persuade an audience (viewers, readers or listeners; sometimes a specific group of people) to continue or take some new action. Most commonly, the desired result is to drive consumer behavior with respect to a commercial offering, although political and ideological advertising is also common. The purpose of advertising may also be to reassure employees or shareholders that a company is viable or successful.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Advertising",
+        "label": "Advertising"
+      }
+    }, {
+      "score": 0.80441624,
+      "concept": {
+        "abstract": "A brand is a \"Name, term, design, symbol, or any other feature that identifies one seller's good or service as distinct from those of other sellers. \" Branding began as a way to tell one person's cattle from another by means of a hot iron stamp. A modern example of a brand is Coca Cola which belongs to the Coca-Cola Company. Marque or make are often used to denote a brand of motor vehicle.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Brand",
+        "label": "Brand"
+      }
+    }, {
+      "score": 0.77012724,
+      "concept": {
+        "abstract": "Public relations (PR) is the practice of managing the flow of information between an organization and its publics. Public relations provides an organization or individual exposure to their audiences using topics of public interest and news items that do not require direct payment. The aim is often to persuade the public, investors, partners, employees and other stakeholders to maintain a certain point of view about the company, its leadership, products or of political decisions.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Public_relations",
+        "label": "Public relations"
+      }
+    }, {
+      "score": 0.72273654,
+      "concept": {
+        "abstract": "Software as a service, sometimes referred to as \"on-demand software\", is a software delivery model in which software and associated data are centrally hosted on the cloud. SaaS is typically accessed by users using a thin client via a web browser.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Software_as_a_service",
+        "label": "Software as a service"
+      }
+    }, {
+      "score": 0.67558324,
+      "concept": {
+        "abstract": "Management is the act of getting people together to accomplish desired goals and objectives using available resources efficiently and effectively. Management comprises planning, organizing, staffing, leading or directing, and controlling an organization (a group of one or more people or entities) or effort for the purpose of accomplishing a goal. Resourcing encompasses the deployment and manipulation of human resources, financial resources, technological resources and natural resources.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Management",
+        "label": "Management"
+      }
+    }, {
+      "score": 0.67093307,
+      "concept": {
+        "abstract": "Accountancy is the process of communicating financial information about a business entity to users such as shareholders and managers. The communication is generally in the form of financial statements that show in money terms the economic resources under the control of management; the art lies in selecting the information that is relevant to the user and is reliable.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Accountancy",
+        "label": "Accountancy"
+      }
+    }, {
+      "score": 0.66207147,
+      "concept": {
+        "abstract": "Electronic commerce, commonly known as e-commerce or e-comm, refers to the buying and selling of products or services over electronic systems such as the Internet and other computer networks. Electronic commerce draws on such technologies as electronic funds transfer, supply chain management, Internet marketing, online transaction processing, electronic data interchange (EDI), inventory management systems, and automated data collection systems.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Electronic_commerce",
+        "label": "Electronic commerce"
+      }
+    }, {
+      "score": 0.6138621,
+      "concept": {
+        "abstract": "A consultant (from Latin: consultare \"to discuss\") is a professional who provides professional or expert advice in a particular area such as security, management, accountancy, law, human resources, marketing, finance, engineering, or any of many other specialized fields. Consulting guru, Peter Block, defines a consultant as \"someone who has influence over an individual, group, or organization, but who has no direct authority to implement changes.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Consultant",
+        "label": "Consultant"
+      }
+    }]
+  }, {
+    "level": 1,
+    "keyword": "Marketer",
+    "concepts": [{
+      "score": 0.9996445,
+      "concept": {
+        "abstract": "Marketing is \"the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large. \" For business to consumer marketing it is \"the process by which companies create value for customers and build strong customer relationships, in order to capture value from customers in return\".",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Marketing",
+        "label": "Marketing"
+      }
+    }, {
+      "score": 0.9821477,
+      "concept": {
+        "abstract": "Marketing research is the systematic gathering, recording, and analysis of data about issues relating to marketing products and services. The goal of marketing research is to identify and assess how changing elements of the marketing mix impacts customer behavior.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Marketing_research",
+        "label": "Marketing research"
+      }
+    }, {
+      "score": 0.9812372,
+      "concept": {
+        "abstract": "The following outline is provided as an overview of and topical guide to marketing: Marketing refers to the social and managerial processes by which products, services and value are exchanged in order to fulfil individuals' or group's needs and wants. These processes include, but are not limited to, advertising, promotion, distribution, and sales.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Outline_of_marketing",
+        "label": "Outline of marketing"
+      }
+    }, {
+      "score": 0.94666153,
+      "concept": {
+        "abstract": "Strategic management is a field that deals with the major intended and emergent initiatives taken by general managers on behalf of owners, involving utilization of resources, to enhance the performance of Ã¯Â¬Ârms in their external environments.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Strategic_management",
+        "label": "Strategic management"
+      }
+    }, {
+      "score": 0.93764764,
+      "concept": {
+        "abstract": "Internet marketing, also known as web marketing, online marketing, webvertising, or e-marketing, is referred to as the marketing (generally promotion) of products or services over the Internet. Internet marketing is considered to be broad in scope because it not only refers to marketing on the Internet, but also includes marketing done via e-mail and wireless media.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Internet_marketing",
+        "label": "Internet marketing"
+      }
+    }, {
+      "score": 0.9349952,
+      "concept": {
+        "abstract": "In business and engineering, new product development (NPD) is the term used to describe the complete process of bringing a new product to market. A product is a set of benefits offered for exchange and can be tangible (that is, something physical you can touch) or intangible (like a service, experience, or belief).",
+        "id": "/graphs/wikipedia/en-20120601/concepts/New_product_development",
+        "label": "New product development"
+      }
+    }, {
+      "score": 0.93326026,
+      "concept": {
+        "abstract": "Market research is any organized effort to gather information about markets or customers. It is a very important component of business strategy. The term is commonly interchanged with marketing research; however, expert practitioners may wish to draw a distinction, in that marketing research is concerned specifically about marketing processes, while market research is concerned specifically with markets. Market research is a key factor to get advantage over competitors.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Market_research",
+        "label": "Market research"
+      }
+    }, {
+      "score": 0.92923445,
+      "concept": {
+        "abstract": "In general, the product is defined as a \"thing produced by labor or effort\" or the \"result of an act or a process\", and stems from the verb produce, from the Latin prÃ…ÂdÃ…Â«ce(re) '(to) lead or bring forth'. Since 1575, the word \"product\" has referred to anything produced. Since 1695, the word has referred to \"thing or things produced\". In economics and commerce, products belong to a broader category of goods. The economic meaning of product was first used by political economist Adam Smith.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Product_(business)",
+        "label": "Product (business)"
+      }
+    }, {
+      "score": 0.9131048,
+      "concept": {
+        "abstract": "Direct marketing is a channel-agnostic form of advertising that allows businesses and nonprofits to communicate straight to the customer, with advertising techniques such as mobile messaging, email, interactive consumer websites, online display ads, fliers, catalog distribution, promotional letters, and outdoor advertising. Direct marketing messages emphasize a focus on the customer, data, and accountability.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Direct_marketing",
+        "label": "Direct marketing"
+      }
+    }]
+  }, {
+    "level": 2,
+    "keyword": "Marketer",
+    "concepts": [{
+      "score": 0.9996445,
+      "concept": {
+        "abstract": "Marketing is \"the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large. \" For business to consumer marketing it is \"the process by which companies create value for customers and build strong customer relationships, in order to capture value from customers in return\".",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Marketing",
+        "label": "Marketing"
+      }
+    }, {
+      "score": 0.9966603,
+      "concept": {
+        "abstract": "In marketing and strategic management, marketing warfare strategies are a type of marketing strategy that uses military metaphor to craft a businesses strategy. See marketing warfare strategies for background and an overview. Defensive marketing warfare strategies are a type of marketing warfare strategy designed to protect a company's market share, profitability, product positioning, or mind share.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Defensive_marketing_warfare_strategies",
+        "label": "Defensive marketing warfare strategies"
+      }
+    }, {
+      "score": 0.99646664,
+      "concept": {
+        "abstract": "Marketing warfare strategies are a type of strategies, used in business and marketing, that try to draw parallels between business and warfare, and then apply the principles of military strategy to business situations, with competing firms considered as analogous to sides in a military conflict, and market share considered as analogous to the territory which is being fought over .",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Marketing_warfare_strategies",
+        "label": "Marketing warfare strategies"
+      }
+    }, {
+      "score": 0.99551,
+      "concept": {
+        "abstract": "Many terms are used in the marketing field.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/List_of_marketing_terms",
+        "label": "List of marketing terms"
+      }
+    }, {
+      "score": 0.9932375,
+      "concept": {
+        "abstract": "Return on marketing investment (ROMI) is the contribution attributable to marketing (net of marketing spending), divided by the marketing 'invested' or risked. ROMI is a relatively new metric. It is not like the other 'return-on-investment' metrics because marketing is not the same kind of investment. Instead of moneys that are 'tied' up in plants and inventories, marketing funds are typically 'risked. ' Marketing spending is typically expensed in the current period.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Return_on_marketing_investment",
+        "label": "Return on marketing investment"
+      }
+    }, {
+      "score": 0.9930561,
+      "concept": {
+        "abstract": "Marketing effectiveness is the quality of how marketers go to market with the goal of optimizing their spending to achieve good results for both the short-term and long-term. It is also related to Marketing ROI and Return on Marketing Investment (ROMI). Marketing expert Tony Lennon believes marketing effectiveness is quintessential to marketing, going so far as to say It's not marketing if it's not measured.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Marketing_effectiveness",
+        "label": "Marketing effectiveness"
+      }
+    }, {
+      "score": 0.9930108,
+      "concept": {
+        "abstract": "Crossing the Chasm: Marketing and Selling High-Tech Products to Mainstream Customers or simply Crossing the Chasm (1991, revised 1999), is a marketing book by Geoffrey A. Moore that focuses on the specifics of marketing high tech products during the early start up period. Moore's exploration and expansion of the diffusions of innovations model has had a significant and lasting impact on high tech entrepreneurship.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Crossing_the_Chasm",
+        "label": "Crossing the Chasm",
+        "ontology": ["Book", "WrittenWork", "Work"]
+      }
+    }, {
+      "score": 0.99134785,
+      "concept": {
+        "abstract": "Permission marketing is a term popularized by Seth Godin (but found earlier) used in marketing in general and e-marketing specifically. The undesirable opposite of permission marketing is interruption marketing. Marketers obtain permission before advancing to the next step in the purchasing process. For example, they ask permission to send email newsletters to prospective customers.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Permission_marketing",
+        "label": "Permission marketing"
+      }
+    }, {
+      "score": 0.9909465,
+      "concept": {
+        "abstract": "A sales process is a systematic approach to selling a product or service. A growing body of published literature approaches the sales process from the point of view of an engineering discipline. Reasons for having a well thought-out sales process include seller and buyer risk management, standardized customer interaction in sales, and scalable revenue generation.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Sales_process",
+        "label": "Sales process"
+      }
+    }]
+  }, {
+    "level": 3,
+    "keyword": "Marketer",
+    "concepts": [{
+      "score": 0.9999386,
+      "concept": {
+        "id": "/graphs/wikipedia/en-20120601/concepts/Marketing_objectives",
+        "label": "Marketing objectives"
+      }
+    }, {
+      "score": 0.9998773,
+      "concept": {
+        "id": "/graphs/wikipedia/en-20120601/concepts/Marketting",
+        "label": "Marketting"
+      }
+    }, {
+      "score": 0.99981624,
+      "concept": {
+        "abstract": "In marketing, a pull-through is an integrated process aimed at moving market share and increasing sales for a certain product in a specific time frame.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Pullthrough",
+        "label": "Pullthrough"
+      }
+    }, {
+      "score": 0.9997583,
+      "concept": {
+        "abstract": "Perishability is used in marketing to describe the way in which service capacity cannot be stored for sale in the future. It is a key concept of services marketing. Other key characteristics of services include intangibility, inseparability and variability.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Perishability",
+        "label": "Perishability"
+      }
+    }, {
+      "score": 0.9997004,
+      "concept": {
+        "abstract": "Inseparability is used in marketing to describe a key quality of services as distinct from goods. Inseparability is the characteristic that a service has which renders it impossible to divorce the supply or production of the service from its consumption. Other key characteristics of services include perishability, intangibility and variability.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Inseparability",
+        "label": "Inseparability"
+      }
+    }, {
+      "score": 0.9996445,
+      "concept": {
+        "abstract": "Marketing is \"the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large. \" For business to consumer marketing it is \"the process by which companies create value for customers and build strong customer relationships, in order to capture value from customers in return\".",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Marketing",
+        "label": "Marketing"
+      }
+    }, {
+      "score": 0.9995887,
+      "concept": {
+        "abstract": "Home user tests are product marketing tests performed in the consumer's home, contrary to central location tests. Home test are done in consumersÃ¢â‚¬â„¢ homes when products are consumed over a length of time or when an authentic consumption environment is required (for example, where people may modify the product by cooking methods, adding other ingredients or using the product in a personalised manner).",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Home-user_test",
+        "label": "Home-user test"
+      }
+    }, {
+      "score": 0.9995332,
+      "concept": {
+        "abstract": "The marketing communications planning framework (MCPF) is a model for the creation of an integrated marketing communications plan. Created by Chris Fill, senior examiner for the Chartered Institute of Marketing, the MCPF is intended to solve the inadequacies of other frameworks.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Marketing_communications_planning_framework",
+        "label": "Marketing communications planning framework"
+      }
+    }, {
+      "score": 0.9994779,
+      "concept": {
+        "abstract": "Customer value maximization (CVM) is a marketing practice that proponents say goes beyond basic customer resource management (CRM) capabilities, identifying and capturing full potential from existing customers. A well-devised CVM program, claim proponents, helps companies offer the right things to the right people at the right time.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Customer_value_maximization",
+        "label": "Customer value maximization"
+      }
+    }]
+  }, {
+    "level": 0,
+    "keyword": "Ex-Girlfriends",
+    "concepts": [{
+      "score": 0.9924952,
+      "concept": {
+        "abstract": "Leonard Norman Cohen, CCÃ‚ GOQ (born 21 September 1934) is a Canadian singer-songwriter, musician, poet, and novelist. His work often explores religion, isolation, sexuality, and interpersonal relationships. Cohen has been inducted into the American Rock and Roll Hall of Fame and both the Canadian Music Hall of Fame and the Canadian Songwriters Hall of Fame. He is also a Companion of the Order of Canada, the nation's highest civilian honour.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Leonard_Cohen",
+        "label": "Leonard Cohen",
+        "ontology": ["MusicalArtist", "Artist", "Person", "Agent"]
+      }
+    }, {
+      "score": 0.8850601,
+      "concept": {
+        "abstract": "The Juno Awards are presented annually to Canadian musical artists and bands to acknowledge their artistic and technical achievements in all aspects of music. New members of the Canadian Music Hall of Fame are also inducted as part of the awards ceremonies. Winners are currently chosen by either members of the Canadian Academy of Recording Arts and Sciences or a panel of experts depending on the award.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Juno_Award",
+        "label": "Juno Award",
+        "ontology": ["Award"]
+      }
+    }, {
+      "score": 0.84964633,
+      "concept": {
+        "abstract": "Neil Percival Young, OC, OM (born November 12, 1945) is a Canadian singer-songwriter who is widely regarded as one of the most influential musicians of his generation. Young began performing as a solo artist in Canada in 1960, before moving to California in 1966, where he co-founded the band Buffalo Springfield along with Stephen Stills and Richie Furay, and later joined Crosby, Stills & Nash as a fourth member in 1969.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Neil_Young",
+        "label": "Neil Young",
+        "ontology": ["MusicalArtist", "Artist", "Person", "Agent"]
+      }
+    }, {
+      "score": 0.7864582,
+      "concept": {
+        "abstract": "Alternative country (sometimes alt-country, insurgent country, or Americana) is a loosely defined sub-genre of country music, which includes acts that differ significantly in style from mainstream or pop country music. It has been used to describe country music bands and artists that have incorporated influences ranging from roots rock, bluegrass, rockabilly, honky-tonk, alternative rock, folk rock, and sometimes punk.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Alternative_country",
+        "label": "Alternative country",
+        "ontology": ["MusicGenre"]
+      }
+    }, {
+      "score": 0.7831665,
+      "concept": {
+        "abstract": "Alternative rock (also called alternative music, alt rock or simply alternative) is a genre of rock music that emerged from the independent music underground of the 1980s and became widely popular by the 1990s and 2000s. Although the term was most commonly associated in its commercial heyday with a loud, distorted guitar sound, its original meaning was broader, referring to a generation of musicians unified by their collective debt to either the musical style, or simply the independent, D.I.Y.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Alternative_rock",
+        "label": "Alternative rock",
+        "ontology": ["MusicGenre"]
+      }
+    }, {
+      "score": 0.77632153,
+      "concept": {
+        "abstract": "LaDonna Adrian Gaines (December 31, 1948 Ã¢â‚¬â€œ May 17, 2012), known by the stage name Donna Summer, was an American singer and songwriter who gained prominence during the disco era of the late 1970s. She had a mezzo-soprano vocal range, and was a five-time Grammy Award winner. Summer was the first artist to have three consecutive double albums reach number one on the United States Billboard chart, and she also charted four number-one singles in the United States within a 13-month period.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Donna_Summer",
+        "label": "Donna Summer",
+        "ontology": ["MusicalArtist", "Artist", "Person", "Agent"]
+      }
+    }, {
+      "score": 0.7539247,
+      "concept": {
+        "abstract": "Capitol Records is a major American record label, formerly located in Los Angeles, but as of 2011 operating in New York City as part of Capitol Music Group. Its former headquarters building, the Capitol Tower, is a major landmark near the corner of Hollywood and Vine. It is a wholly owned subsidiary of EMI.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Capitol_Records",
+        "label": "Capitol Records",
+        "ontology": ["RecordLabel", "Company", "Organisation", "Agent"]
+      }
+    }, {
+      "score": 0.73231274,
+      "concept": {
+        "abstract": "Columbia Records is an American record label, owned by Sony Music Entertainment, operating under the Columbia Music Group with Aware Records. It was founded in 1888, evolving from an earlier enterprise, the American Graphophone CompanyÃ¢â‚¬â€successor to the Volta Graphophone Company. Columbia is the oldest brand name in pre-recorded sound, being the first record company to produce pre-recorded records as opposed to blank cylinders.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Columbia_Records",
+        "label": "Columbia Records",
+        "ontology": ["RecordLabel", "Company", "Organisation", "Agent"]
+      }
+    }, {
+      "score": 0.7132724,
+      "concept": {
+        "abstract": "Pop rock is a music genre which mixes a catchy pop style and light lyrics in its (typically) guitar-based rock songs. There are varying definitions of the term, ranging from a slower and mellower form of rock music to a subgenre of pop music. Scholars have noted that pop and rock are usually depicted as opposites; the detractors of pop often deride it as a slick, commercial product, less authentic than rock music.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Pop_rock",
+        "label": "Pop rock",
+        "ontology": ["MusicGenre"]
+      }
+    }]
+  }, {
+    "level": 1,
+    "keyword": "Ex-Girlfriends",
+    "concepts": [{
+      "score": 0.99422,
+      "concept": {
+        "abstract": "This is a list of minor fictional characters from the science fiction television series Star Trek: Voyager. Characters here are members of the crew, or passengers, on the starship Voyager as it makes its way home through unknown space during the course of the series. The minor characters generally appear at most in several episodes (out of 172), sometimes in episodes that largely concern them.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/List_of_minor_recurring_characters_in_Star_Trek:_Voyager",
+        "label": "List of minor recurring characters in Star Trek: Voyager"
+      }
+    }, {
+      "score": 0.9924952,
+      "concept": {
+        "abstract": "Leonard Norman Cohen, CCÃ‚ GOQ (born 21 September 1934) is a Canadian singer-songwriter, musician, poet, and novelist. His work often explores religion, isolation, sexuality, and interpersonal relationships. Cohen has been inducted into the American Rock and Roll Hall of Fame and both the Canadian Music Hall of Fame and the Canadian Songwriters Hall of Fame. He is also a Companion of the Order of Canada, the nation's highest civilian honour.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Leonard_Cohen",
+        "label": "Leonard Cohen",
+        "ontology": ["MusicalArtist", "Artist", "Person", "Agent"]
+      }
+    }, {
+      "score": 0.9916078,
+      "concept": {
+        "abstract": "Adult album alternative (also triple-A, AAA, or adult alternative) is a radio format. A spinoff from the album-oriented rock format, its roots trace to the 1960s and 1970s from the earlier freeform and progressive formats. The format has a broader, more diverse playlist than most other formats and tends to appeal more to adults than to teenagers.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Adult_album_alternative",
+        "label": "Adult album alternative"
+      }
+    }, {
+      "score": 0.99025196,
+      "concept": {
+        "abstract": "The Juno Awards of 2006 were held in Halifax, Nova Scotia, Canada on the weekend of 31 March to 2 April 2006. These ceremonies honour music industry achievements in Canada during the previous year. The primary ceremonies were hosted by Pamela Anderson at the Halifax Metro Centre on 2 April and televised on CTV. Buck 65 was the ceremony's introduction and preview announcer.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Juno_Awards_of_2006",
+        "label": "Juno Awards of 2006"
+      }
+    }, {
+      "score": 0.9887885,
+      "concept": {
+        "abstract": "Vanessa Lee Carlton (born August 16, 1980) is an American singer-songwriter and musician. Upon completion of her education at the School of American Ballet, Carlton chose to pursue singing instead, performing in New York bars and clubs while attending university. Three months after recording a demo with producer Peter Zizzo, she signed with A&M Records. She began recording her album, which was initially unsuccessful until Ron Fair took over.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Vanessa_Carlton",
+        "label": "Vanessa Carlton",
+        "ontology": ["MusicalArtist", "Artist", "Person", "Agent"]
+      }
+    }, {
+      "score": 0.9873456,
+      "concept": {
+        "abstract": "Ronald Eldon \"Ron\" Sexsmith (born 8 January 1964) is a Canadian singer-songwriter from St. Catharines, Ontario, currently based in Toronto. He started his own band when he was fourteen years old, and released the first recordings of his own material seven years later, in 1985. Some of the same artists who inspired SexsmithÃ¢â‚¬â€Paul McCartney, Elvis Costello, Ray Davies and John HiattÃ¢â‚¬â€are now people whose praise he has won. Sexsmith is the subject of a 2010 documentary, Love Shines.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Ron_Sexsmith",
+        "label": "Ron Sexsmith",
+        "ontology": ["MusicalArtist", "Artist", "Person", "Agent"]
+      }
+    }, {
+      "score": 0.98446935,
+      "concept": {
+        "abstract": "Marc Preston Webb (born August 31, 1974) is an American music video, short film and major motion picture director. He made his directorial debut with the 2009 romantic comedy-drama (500) Days of Summer and has recently directed the upcoming 2012 Spider-Man reboot The Amazing Spider-Man.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Marc_Webb",
+        "label": "Marc Webb",
+        "ontology": ["Person", "Agent"]
+      }
+    }, {
+      "score": 0.9831147,
+      "concept": {
+        "abstract": "The following lists bands or artists that are played on adult album alternative radio stations, or have been cited as part of the adult alternative pop/rock music genre.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/List_of_adult_alternative_artists",
+        "label": "List of adult alternative artists"
+      }
+    }, {
+      "score": 0.9817349,
+      "concept": {
+        "abstract": "This is an episode list for the science fiction television series Star Trek: Voyager, which aired on UPN from January 1995 through May 2001. This is the fourth television program in the Star Trek franchise, and comprises a total of 172 episodes over the show's seven seasons. Five episodes of Voyager each originally aired as two-hour presentations. The episodes are listed in chronological order by original air date, which match the episode order in each season's DVD set.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/List_of_Star_Trek:_Voyager_episodes",
+        "label": "List of Star Trek: Voyager episodes"
+      }
+    }]
+  }, {
+    "level": 2,
+    "keyword": "Ex-Girlfriends",
+    "concepts": [{
+      "score": 0.99975157,
+      "concept": {
+        "abstract": "Adam Cohen (born September 18, 1972) is a Canadian musician, singer-songwriter, and frontman of the band Low Millions. As a recording artist, he has released three major label albums, two in English and one in French. Currently residing in Los Angeles, the musician, who is Leonard Cohen's son, also is the ambassador of the Cohen family to art exhibits of Leonard Cohen Art, attending and doing press and media for openings around the world for his father's paintings and drawings.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Adam_Cohen_(musician)",
+        "label": "Adam Cohen (musician)",
+        "ontology": ["MusicalArtist", "Artist", "Person", "Agent"]
+      }
+    }, {
+      "score": 0.99968773,
+      "concept": {
+        "abstract": "\"Intiraymi\" redirects here. For the Inca festival, see Inti Raymi. Manu IntiraymiBorn (1978-04-22) April 22, 1978 (ageÃ‚ 34)Santa Cruz, California, U.S. Years active 1998 to present Manu Intiraymi (born April 22, 1978) is an American television and theatre actor, best known as Icheb on the television series Star Trek: Voyager.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Manu_Intiraymi",
+        "label": "Manu Intiraymi",
+        "ontology": ["Person", "Agent"]
+      }
+    }, {
+      "score": 0.9996252,
+      "concept": {
+        "abstract": "The Juno Award for Adult Alternative Album of the Year has been awarded since 2005, as recognition each year for the best album in the adult alternative genre by a Canadian artist.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Juno_Award_for_Adult_Alternative_Album_of_the_Year",
+        "label": "Juno Award for Adult Alternative Album of the Year"
+      }
+    }, {
+      "score": 0.9995666,
+      "concept": {
+        "abstract": "Manhattan Records is a United States record label, owned by EMI and operates as a subsidiary of The Blue Note Label Group.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Manhattan_Records",
+        "label": "Manhattan Records",
+        "ontology": ["RecordLabel", "Company", "Organisation", "Agent"]
+      }
+    }, {
+      "score": 0.9992877,
+      "concept": {
+        "abstract": "Keith Forsey (born 2 January 1948, in London) is an English soundtrack composer, drummer, songwriter and record producer.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Keith_Forsey",
+        "label": "Keith Forsey",
+        "ontology": ["MusicalArtist", "Artist", "Person", "Agent"]
+      }
+    }, {
+      "score": 0.9991254,
+      "concept": {
+        "abstract": "David Kahne is an American record producer, musician, composer, and former record company executive. Kahne started his musical career as a working musician and soon became Director of A&R for America's first punk & new wave record label, San Francisco's 415 Records; a position he operated out of a closet-sized office upstairs at The Automatt recording studio.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/David_Kahne",
+        "label": "David Kahne"
+      }
+    }, {
+      "score": 0.9987009,
+      "concept": {
+        "abstract": "Christopher Mario Testa (born March 8, 1973) is an American Grammy award winning producer, mixer, engineer and musician. He was born in Florham Park, NJ. He now resides in Los Angeles, CA.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Christopher_Mario_Testa",
+        "label": "Christopher Mario Testa"
+      }
+    }, {
+      "score": 0.99864864,
+      "concept": {
+        "abstract": "Julian Coryell (born 1973) is an American singer, songwriter, guitarist, and producer.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Julian_Coryell",
+        "label": "Julian Coryell"
+      }
+    }, {
+      "score": 0.9985964,
+      "concept": {
+        "abstract": "Patrick Raymond Leonard (born 1955) is an American songwriter, keyboardist and music producer, known for his longtime collaboration with Madonna on many different recordings. He gained his entry into the music business with late 1970s Chicago-based pomp rock band Trillion, which also featured future Toto singer Dennis \"Fergie\" Frederiksen on lead vocals.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Patrick_Leonard",
+        "label": "Patrick Leonard",
+        "ontology": ["Writer", "Artist", "Person", "Agent"]
+      }
+    }]
+  }, {
+    "level": 3,
+    "keyword": "Ex-Girlfriends",
+    "concepts": [{
+      "score": 0.9999062,
+      "concept": {
+        "abstract": "Ex-Girlfriends is the debut album by Low Millions, featuring Adam Cohen (son of songwriter Leonard Cohen).",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Ex-Girlfriends",
+        "label": "Ex-Girlfriends",
+        "ontology": ["Album", "MusicalWork", "Work"]
+      }
+    }, {
+      "score": 0.9998244,
+      "concept": {
+        "abstract": "The Low Millions are a pop-rock band from California. They launched their debut album, Ex-Girlfriends in 2004, under the recording label Manhattan Records. Shortly after their debut release, Adam Cohen explained the meaning of the band's name: \"It reflects a condition that anybody at anytime can be in... That is the state of being a low million. It's a calling card Ã¢â‚¬â€ there are millions of subscribers in the world and we are certainly one of them at any given moment.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Low_Millions",
+        "label": "Low Millions",
+        "ontology": ["Band", "Organisation", "Agent"]
+      }
+    }, {
+      "score": 0.99975157,
+      "concept": {
+        "abstract": "Adam Cohen (born September 18, 1972) is a Canadian musician, singer-songwriter, and frontman of the band Low Millions. As a recording artist, he has released three major label albums, two in English and one in French. Currently residing in Los Angeles, the musician, who is Leonard Cohen's son, also is the ambassador of the Cohen family to art exhibits of Leonard Cohen Art, attending and doing press and media for openings around the world for his father's paintings and drawings.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Adam_Cohen_(musician)",
+        "label": "Adam Cohen (musician)",
+        "ontology": ["MusicalArtist", "Artist", "Person", "Agent"]
+      }
+    }, {
+      "score": 0.99968773,
+      "concept": {
+        "abstract": "\"Intiraymi\" redirects here. For the Inca festival, see Inti Raymi. Manu IntiraymiBorn (1978-04-22) April 22, 1978 (ageÃ‚ 34)Santa Cruz, California, U.S. Years active 1998 to present Manu Intiraymi (born April 22, 1978) is an American television and theatre actor, best known as Icheb on the television series Star Trek: Voyager.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Manu_Intiraymi",
+        "label": "Manu Intiraymi",
+        "ontology": ["Person", "Agent"]
+      }
+    }, {
+      "score": 0.9996252,
+      "concept": {
+        "abstract": "The Juno Award for Adult Alternative Album of the Year has been awarded since 2005, as recognition each year for the best album in the adult alternative genre by a Canadian artist.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Juno_Award_for_Adult_Alternative_Album_of_the_Year",
+        "label": "Juno Award for Adult Alternative Album of the Year"
+      }
+    }, {
+      "score": 0.9995666,
+      "concept": {
+        "abstract": "Manhattan Records is a United States record label, owned by EMI and operates as a subsidiary of The Blue Note Label Group.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Manhattan_Records",
+        "label": "Manhattan Records",
+        "ontology": ["RecordLabel", "Company", "Organisation", "Agent"]
+      }
+    }, {
+      "score": 0.99950904,
+      "concept": {
+        "abstract": "Radio 92.9 EarthFest is a free music festival that features both national and local acts. The concert averages 125,000 people yearly, hosts 14 bands on 3 stages, and is the largest radio station \"Earth\" or \"Green\" related event in New England.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/EarthFest",
+        "label": "EarthFest"
+      }
+    }, {
+      "score": 0.99945265,
+      "concept": {
+        "abstract": "Decca Label Group is Universal Music Group's classical music record label group based in the United States - in addition to new releases, it also manages the vast classical back catalog of UMG (through the various labels that make up the group). The Decca Label Group comprises two divisions: Universal Musical Classical and the American operations of Decca Records. In 2005, Universal Classics Group was named 3 on Billboard's Top Classical Crossover Label and 2 on Billboard's Top Classical Label.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/Decca_Label_Group",
+        "label": "Decca Label Group"
+      }
+    }, {
+      "score": 0.99939746,
+      "concept": {
+        "abstract": "How to Fall Down in Public is the fourth studio album by Canadian singer-songwriter Howie Beck, released February 24, 2009. The album was a nominee for Adult Alternative Album of the Year at the 2010 Juno Awards.",
+        "id": "/graphs/wikipedia/en-20120601/concepts/How_to_Fall_Down_in_Public",
+        "label": "How to Fall Down in Public",
+        "ontology": ["Album", "MusicalWork", "Work"]
+      }
+    }]
+  }]
+}

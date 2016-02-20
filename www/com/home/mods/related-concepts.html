@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<div class="card">
+  <div class="item item-toggle">
+    Keywords
+    <label class="toggle toggle-assertive">
+      <input type="checkbox" ng-model="show">
+      <div class="track">
+        <div class="handle"></div>
+      </div>
+    </label>
+  </div>
+</div>
+
+<div ng-if="show" class="card idea-related" ng-repeat="entry in home.idea.related.concepts">
+
+  <div class="item item-positive item-toggle">
+    {{entry.concept.label}}
+    <label class="toggle toggle-dark">
+      <input type="checkbox" ng-model="showDetail">
+      <div class="track">
+        <div class="handle"></div>
+      </div>
+    </label>
+  </div>
+
+  <div class="item item-group" ng-if="entry.concept.ontology">
+    <div ng-repeat="o in entry.concept.ontology">
+      {{o}}
+    </div>
+  </div>
+
+  <div ng-if="showDetail" class="item item-text-wrap">
+    {{entry.concept.abstract}}
+  </div>
+</div>

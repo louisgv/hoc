@@ -1,0 +1,15 @@
+[{
+  "concept": {
+    "id": "/graphs/wikipedia/en-20120601/concepts/Dog",
+    "label": "Dog"
+  },
+  "score": 0.9138304,
+  "text_index": [37, 40]
+}, {
+  "concept": {
+    "id": "/graphs/wikipedia/en-20120601/concepts/Fox",
+    "label": "Fox"
+  },
+  "score": 0.8999593,
+  "text_index": [13, 16]
+  }]

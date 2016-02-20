@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<div class="card">
+  <div class="item item-button-right">
+    Tone Visualized
+    <button class="button button-clear button-dark" ng-click="home.getTone()">
+      <i class="icon ion-refresh"></i>
+    </button>
+  </div>
+</div>
+
+<div class="card idea-tone">
+  <div class="item item-positive">
+    Emotional Tone
+  </div>
+  <canvas id="emotion-tone-chart" class="chart chart-pie"
+    chart-data="home.graph.tone.emotion.data" chart-labels="home.graph.tone.emotion.labels"
+    chart-legend="true">
+  </canvas>
+</div>
+
+<div class="card idea-tone">
+  <div class="item item-positive">
+    Writing Tone
+  </div>
+  <canvas id="writing-tone-chart" class="chart chart-pie"
+    chart-data="home.graph.tone.writing.data" chart-labels="home.graph.tone.writing.labels"
+    chart-legend="true">
+  </canvas>
+</div>
+
+<div class="card idea-tone">
+  <div class="item item-positive">
+    Social Tone
+  </div>
+  <canvas id="social-tone-chart" class="chart chart-pie"
+    chart-data="home.graph.tone.social.data" chart-labels="home.graph.tone.social.labels"
+    chart-legend="true">
+  </canvas>
+</div>

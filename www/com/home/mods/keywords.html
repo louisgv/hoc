@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<div class="card">
+  <div class="item item-toggle">
+    Keywords
+    <label class="toggle toggle-dark">
+      <input type="checkbox" ng-model="show">
+      <div class="track">
+        <div class="handle"></div>
+      </div>
+    </label>
+  </div>
+</div>
+
+<div ng-if="show" class="card idea-annotations" ng-repeat="key in home.idea.keyData.keywords">
+  <div class="item item-divider">
+    {{key.text}}
+  </div>
+  <div class="item item-positive">
+    {{key.relevance}}
+  </div>
+
+</div>

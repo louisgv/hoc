@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<div class="card">
+  <div class="item item-toggle">
+    Tone Raw Table
+    <label class="toggle toggle-energized">
+      <input type="checkbox" ng-model="showTone">
+      <div class="track">
+        <div class="handle"></div>
+      </div>
+    </label>
+  </div>
+</div>
+
+<div ng-if="showTone" class="card idea-tone" ng-repeat="tone_category in home.idea.tone.document_tone.tone_categories">
+
+  <div class="item item-divider">
+    {{tone_category.category_name}}
+  </div>
+
+  <div class="item" ng-repeat="tone in tone_category.tones">
+    {{tone.tone_name}} : {{tone.score * 100 | number : 2 }} %
+  </div>
+  <!-- <div class="item item-text-wrap">
+    {{tone_category}}
+  </div> -->
+
+</div>

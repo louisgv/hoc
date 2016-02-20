@@ -1,0 +1,70 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: '../lib/ionic/fonts' !default;
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic", "home";
+// Global Rules here:
+
+textarea {
+  resize: vertical;
+  /*will prevent resizing horizontally*/
+  margin-top: 13.14px;
+}
+
+.app-bg {
+
+  background: #BA8B02;
+  // /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #BA8B02 , #181818);
+  // /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #BA8B02 , #181818);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  // background-image: url(../assets/img/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.full-width {
+  width: 100%;
+  max-height: 80vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bottom-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  // margin-bottom: 50px;
+  padding-bottom: 0;
+}
+
+.logo {
+  img {
+    padding-top: 9px;
+    height: 90%;
+  }
+}
