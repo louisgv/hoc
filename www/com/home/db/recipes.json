@@ -351,6 +351,98 @@
             }
          ],
          "variations":"Try plum sauce with your chicken fingers!"
+      },
+	  {
+         "name":"Mashed Potatoes",
+         "level":3,
+         "prepTime":15,
+         "cookTime":20,
+         "ingredients":[
+            {
+               "name":"Potatoes - 2 Pounds (About 3 Potatoes)",
+               "img":""
+            },
+			{
+               "name":"Butter - 2 Tablespoons",
+               "img":""
+            },
+			{
+               "name":"Milk - 1 Cup",
+               "img":""
+            },
+			{
+               "name":"Salt and Pepper - as much as desired to enhance flavor",
+               "img":""
+            },
+         ],
+         "tools":[
+            {
+               "name":"Pot (with salted water that can hold the potatoes)",
+               "img":""
+            },
+            {
+               "name":"Cutting Board",
+               "img":""
+            },
+			{
+               "name":"Peeler",
+               "img":""
+            },
+            {
+               "name":"Sharp Knife",
+               "img":""
+            },
+			{
+               "name":"Oven Mitts (for draining the pot)",
+               "img":""
+            },
+			{
+               "name":"Bowl (for mashing)",
+               "img":""
+            },
+			{
+               "name":"Masher",
+               "img":""
+            }
+         ],
+         "steps":[
+            {
+               "name":"Step One",
+               "number":1,
+               "description":"Wash, peel, and cut the potatoes into quarters.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Two",
+               "number":2,
+               "description":"Put the potatoes in the pot on the stove to boil for about 15 minutes until they are tender.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Three",
+               "number":3,
+               "description":"Drain the pot carefully. Put potatoes in bowl.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Four",
+               "number":4,
+               "description":"Mash potatoes thoroughly, mix gentler with milk and butter until it has an even consistency.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Five",
+               "number":5,
+               "description":"Season with salt and pepper to taste.",
+               "img":"",
+               "timer":false
+            }
+         ],
+         "variations":"Try serving mashed potatoes with gravy and steamed vegetables!"
       }
    ]
 }
