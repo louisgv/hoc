@@ -8,28 +8,37 @@ function HomeCtrl($http, $ionicLoading) {
   var home = this;
 
   home.cardDestroyed = function (index) {
-    var newCard = home.recipe.steps.splice(index, 1)[0];
-    newCard.id = Math.random();
-    // home.recipe.steps.push(angular.extend({}, newCard));
-    home.recipe.steps.unshift(angular.extend({}, newCard));
-
-    console.log(index);
+    // var newCard = home.recipe.steps.splice(index, 1)[0];
+    // newCard.id = Math.random();
+    // // home.recipe.steps.push(angular.extend({}, newCard));
+    // home.recipe.steps.unshift(angular.extend({}, newCard));
+    //
+    // console.log(index);
   }
 
   home.cardSwipedLeft = function(index) {
     // home.recipe.steps.push(home.recipe.steps[index]);
     // home.recipe.steps.push();
+    var newCard = home.recipe.steps.splice(index, 1)[0];
+    newCard.id = Math.random();
+    // home.recipe.steps.push(angular.extend({}, newCard));
+    home.recipe.steps.unshift(angular.extend({}, newCard));
   }
 
   // home.recipe.steps.push(home.recipe.steps.splice(index, 1)[0]);
   home.cardSwipedRight = function(index) {
     // console.log(home.recipe.steps);
+    home.recipe.steps.splice(index, 1);
 
   }
 
   home.chooseRecipe = function (index) {
-    home.recipe = home.recipes[index];
 
+    home.recipe = angular.copy(home.recipes[index]);
+
+    console.log(home.recipe.steps);
+
+    // home.recipe.steps = home.recipe.steps.reverse();
   }
 
   var fetchRecipe = function () {
