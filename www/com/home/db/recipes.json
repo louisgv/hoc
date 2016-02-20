@@ -1,529 +1,529 @@
 {
-   "recipe":[
-      {
-         "name":"Grilled Cheese",
-         "level":1,
-         "prepTime":5,
-         "cookTime":10,
-         "ingredients":[
-            {
-               "name":"Sliced Bread - 2 Slices",
-               "img":"http://images.sodahead.com/polls/001802485/4738455_istockphoto_3046396_bread_two_slices_xlarge.jpeg"
+  "recipe": [
+    {
+      "name": "Grilled Cheese",
+      "level": 1,
+      "prepTime": 5,
+      "cookTime": 10,
+      "ingredients": [
+        {
+          "name": "Sliced Bread - 2 Slices",
+          "img": "http://images.sodahead.com/polls/001802485/4738455_istockphoto_3046396_bread_two_slices_xlarge.jpeg"
             },
-            {
-               "name":"Butter - 1 Tablespoon",
-               "img":"http://blog.freshharvestga.com/wp-content/uploads/2014/09/Butter.jpg"
+        {
+          "name": "Butter - 1 Tablespoon",
+          "img": "http://blog.freshharvestga.com/wp-content/uploads/2014/09/Butter.jpg"
             },
-            {
-               "name":"Cheese Slices - 1 Slice",
-               "img":"http://lackeyafjrotc.com/wp-content/uploads/2016/01/slice-of-cheese-78393-14.jpg"
+        {
+          "name": "Cheese Slices - 1 Slice",
+          "img": "http://lackeyafjrotc.com/wp-content/uploads/2016/01/slice-of-cheese-78393-14.jpg"
             }
          ],
-         "tools":[
-            {
-               "name":"Butter Knife",
-               "img":"http://www.nthsweb.net/horvathc/Sandwich/knife.jpg"
+      "tools": [
+        {
+          "name": "Butter Knife",
+          "img": "http://www.nthsweb.net/horvathc/Sandwich/knife.jpg"
             },
-            {
-               "name":"Non-stick Frying Pan",
-               "img":"http://ecx.images-amazon.com/images/I/31SWl2ykPVL.jpg"
+        {
+          "name": "Non-stick Frying Pan",
+          "img": "http://ecx.images-amazon.com/images/I/31SWl2ykPVL.jpg"
             },
-            {
-               "name":"Spatula",
-               "img":"http://ecx.images-amazon.com/images/I/317BZZM9S5L.jpg"
+        {
+          "name": "Spatula",
+          "img": "http://ecx.images-amazon.com/images/I/317BZZM9S5L.jpg"
             }
          ],
-         "steps":[
-            {
-               "name":"Step One",
-               "number":1,
-               "description":"Preheat frying pan over medium heat.",
-               "img":"",
-               "timer":false
+      "steps": [
+        {
+          "name": "Step One",
+          "number": 1,
+          "description": "Preheat frying pan over medium heat.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Two",
-               "number":2,
-               "description":"Generously butter one side of both slices of bread.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Two",
+          "number": 2,
+          "description": "Generously butter one side of both slices of bread.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Three",
-               "number":3,
-               "description":"Place one slice of bread butter side down on the frying pan. Place slice of cheese on top of the bread. Add the second buttered slice of bread with the buttered side up.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Three",
+          "number": 3,
+          "description": "Place one slice of bread butter side down on the frying pan. Place slice of cheese on top of the bread. Add the second buttered slice of bread with the buttered side up.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Four",
-               "number":4,
-               "description":"Allow sandwich to grill until bottom reaches desired browning - typically golden browned. Once browned, use spatula to flip sandwich to grill the other side. Allow sandwich to grill until cheese is melted and the bottom has reached desired browning.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Four",
+          "number": 4,
+          "description": "Allow sandwich to grill until bottom reaches desired browning - typically golden browned. Once browned, use spatula to flip sandwich to grill the other side. Allow sandwich to grill until cheese is melted and the bottom has reached desired browning.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Five",
-               "number":5,
-               "description":"Use spatula to remove sandwich from pan and place onto plate. Remove pan from the burner and be sure to turn off the stovetop. Cut sandwich in half and enjoy by itself or with a dip such as ketchup.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Five",
+          "number": 5,
+          "description": "Use spatula to remove sandwich from pan and place onto plate. Remove pan from the burner and be sure to turn off the stovetop. Cut sandwich in half and enjoy by itself or with a dip such as ketchup.",
+          "img": "",
+          "timer": false
             }
          ],
-         "variations":"Try using different kinds of bread and different cheeses next time you make grilled cheese!"
+      "variations": "Try using different kinds of bread and different cheeses next time you make grilled cheese!"
       },
-      {
-         "name":"Boxed Mac and Cheese",
-         "level":1,
-         "prepTime":5,
-         "cookTime":10,
-         "ingredients":[
-            {
-               "name":"Water - 6 Cups",
-               "img":"http://image.shutterstock.com/z/stock-photo-water-in-measuring-cup-on-white-background-96959351.jpg"
+    {
+      "name": "Boxed Mac and Cheese",
+      "level": 1,
+      "prepTime": 5,
+      "cookTime": 10,
+      "ingredients": [
+        {
+          "name": "Water - 6 Cups",
+          "img": "http://image.shutterstock.com/z/stock-photo-water-in-measuring-cup-on-white-background-96959351.jpg"
             },
-            {
-               "name":"Package of Macaroni and Cheese Dinner",
-               "img":"http://www.kraftmacandcheese.com/products/bluebox/~/media/YouKnowYouLoveIt/com/Images/v2_bluebox_thecheesiest.png"
+        {
+          "name": "Package of Macaroni and Cheese Dinner",
+          "img": "http://www.kraftmacandcheese.com/products/bluebox/~/media/YouKnowYouLoveIt/com/Images/v2_bluebox_thecheesiest.png"
             },
-            {
-               "name":"Margarine - 1/4 Cup",
-               "img":"http://d2eav5lh30za4j.cloudfront.net/media/gallery/0001/01/thumb_786_gallery_pinterest_thumbnail.jpeg"
+        {
+          "name": "Margarine - 1/4 Cup",
+          "img": "http://d2eav5lh30za4j.cloudfront.net/media/gallery/0001/01/thumb_786_gallery_pinterest_thumbnail.jpeg"
             },
-            {
-               "name":"Milk - 1/4 Cup",
-               "img":"http://s7d2.scene7.com/is/image/samsclub/0007874202235_A?wid=1500&hei=1500&fmt=jpg&qlt=80"
+        {
+          "name": "Milk - 1/4 Cup",
+          "img": "http://s7d2.scene7.com/is/image/samsclub/0007874202235_A?wid=1500&hei=1500&fmt=jpg&qlt=80"
             }
          ],
-         "tools":[
-            {
-               "name":"1/4 Cup Measuring Cup",
-               "img":"http://ecx.images-amazon.com/images/I/31UCRdOm8XL.jpg"
+      "tools": [
+        {
+          "name": "1/4 Cup Measuring Cup",
+          "img": "http://ecx.images-amazon.com/images/I/31UCRdOm8XL.jpg"
             },
-            {
-               "name":"Liquid Measuring Cup",
-               "img":"http://www.gourmetsleuth.com/images/default-source/dictionary/liquid_measuring_cup-jpg.jpg?sfvrsn=3"
+        {
+          "name": "Liquid Measuring Cup",
+          "img": "http://www.gourmetsleuth.com/images/default-source/dictionary/liquid_measuring_cup-jpg.jpg?sfvrsn=3"
             },
-            {
-               "name":"Medium Pot",
-               "img":"http://www.olgasflavorfactory.com/wp-content/uploads/2014/06/Stainless-Steel-Soup-Pot-300x192.jpg"
+        {
+          "name": "Medium Pot",
+          "img": "http://www.olgasflavorfactory.com/wp-content/uploads/2014/06/Stainless-Steel-Soup-Pot-300x192.jpg"
             },
-            {
-               "name":"Strainer",
-               "img":"http://www.webstaurantstore.com/images/products/main/39980/278495/lincoln-by-vollrath-5-qt-aluminum-spaghetti-strainer.jpg"
+        {
+          "name": "Strainer",
+          "img": "http://www.webstaurantstore.com/images/products/main/39980/278495/lincoln-by-vollrath-5-qt-aluminum-spaghetti-strainer.jpg"
             }
          ],
-         "steps":[
-            {
-               "name":"Step One",
-               "number":1,
-               "description":"Bring water to a boil in medium pot.",
-               "img":"",
-               "timer":false
+      "steps": [
+        {
+          "name": "Step One",
+          "number": 1,
+          "description": "Bring water to a boil in medium pot.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Two",
-               "number":2,
-               "description":"Set cheese packet aside. Add Macaroni, and cook 7 to 8 minutes until tender.",
-               "img":"",
-               "timer":true
+        {
+          "name": "Step Two",
+          "number": 2,
+          "description": "Set cheese packet aside. Add Macaroni, and cook 7 to 8 minutes until tender.",
+          "img": "",
+          "timer": true
             },
-            {
-               "name":"Step Three",
-               "number":3,
-               "description":"Turn off stovetop and remove pot from heat. Strain the macaroni and return to original pot.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Three",
+          "number": 3,
+          "description": "Turn off stovetop and remove pot from heat. Strain the macaroni and return to original pot.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Four",
-               "number":4,
-               "description":"Add margarine, milk, and cheese mix. Mix well. Scoop into a bowl to serve.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Four",
+          "number": 4,
+          "description": "Add margarine, milk, and cheese mix. Mix well. Scoop into a bowl to serve.",
+          "img": "",
+          "timer": false
             }
          ],
-         "variations":"Try serving with ketchup or your favorite hot sauce!"
+      "variations": "Try serving with ketchup or your favorite hot sauce!"
       },
-      {
-         "name":"Instant Ramen",
-         "level":1,
-         "prepTime":2,
-         "cookTime":10,
-         "ingredients":[
-            {
-               "name":"Instant Ramen - 1 package",
-               "img":"http://c4.soap.com/images/products/p/dcs/dcs-336_1z.jpg"
+    {
+      "name": "Instant Ramen",
+      "level": 1,
+      "prepTime": 2,
+      "cookTime": 10,
+      "ingredients": [
+        {
+          "name": "Instant Ramen - 1 package",
+          "img": "http://c4.soap.com/images/products/p/dcs/dcs-336_1z.jpg"
             },
-            {
-               "name":"Water - 2 cups",
-               "img":"http://image.shutterstock.com/z/stock-photo-water-in-measuring-cup-on-white-background-96959351.jpg"
+        {
+          "name": "Water - 2 cups",
+          "img": "http://image.shutterstock.com/z/stock-photo-water-in-measuring-cup-on-white-background-96959351.jpg"
             }
          ],
-         "tools":[
-            {
-               "name":"Small Sauce Pan",
-               "img":"http://www.stylepark.com/db-images/cms/iittala/img/p285558_488_336-1.jpg"
+      "tools": [
+        {
+          "name": "Small Sauce Pan",
+          "img": "http://www.stylepark.com/db-images/cms/iittala/img/p285558_488_336-1.jpg"
             },
-            {
-               "name":"Bowl",
-               "img":"http://www.ikea.com/PIAimages/0089821_PE222881_S5.JPG"
+        {
+          "name": "Bowl",
+          "img": "http://www.ikea.com/PIAimages/0089821_PE222881_S5.JPG"
             },
-            {
-               "name":"Fork",
-               "img":"http://cdnimg3.webstaurantstore.com/images/products/extra_large/45500/241884.jpg"
+        {
+          "name": "Fork",
+          "img": "http://cdnimg3.webstaurantstore.com/images/products/extra_large/45500/241884.jpg"
             }
          ],
-         "steps":[
-            {
-               "name":"Step One",
-               "number":1,
-               "description":"Heat 2 cups of water to a boil in the sauce pan.",
-               "img":"",
-               "timer":false
+      "steps": [
+        {
+          "name": "Step One",
+          "number": 1,
+          "description": "Heat 2 cups of water to a boil in the sauce pan.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Two",
-               "number":2,
-               "description":"Put ramen noodles in the boiling water.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Two",
+          "number": 2,
+          "description": "Put ramen noodles in the boiling water.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Three",
-               "number":3,
-               "description":"After 3 minutes of cooking, remove the sauce pan from heat and drain excess water. Leave a little water to help mix the seasoning.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Three",
+          "number": 3,
+          "description": "After 3 minutes of cooking, remove the sauce pan from heat and drain excess water. Leave a little water to help mix the seasoning.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Four",
-               "number":4,
-               "description":"Open seasoning packet and put in a bowl with noodles. Stir in the seasoning.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Four",
+          "number": 4,
+          "description": "Open seasoning packet and put in a bowl with noodles. Stir in the seasoning.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Five",
-               "number":5,
-               "description":"Be sure to turn off the stovetop.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Five",
+          "number": 5,
+          "description": "Be sure to turn off the stovetop.",
+          "img": "",
+          "timer": false
             }
          ],
-         "variations":"Try frying up an over easy egg with a slab of cheese on and mix it in with the noodles for more flavour and protein!"
+      "variations": "Try frying up an over easy egg with a slab of cheese on and mix it in with the noodles for more flavour and protein!"
       },
-	  {
-         "name":"Bacon",
-         "level":2,
-         "prepTime":0,
-         "cookTime":10,
-         "ingredients":[
-            {
-               "name":"Bacon - 1 package",
-               "img":"http://cdn-jpg.allyou.com/sites/default/files/image/2014/01/400xvariable/i/2009/11/bacon-package-l.jpg"
+    {
+      "name": "Bacon",
+      "level": 2,
+      "prepTime": 0,
+      "cookTime": 10,
+      "ingredients": [
+        {
+          "name": "Bacon - 1 package",
+          "img": "http://cdn-jpg.allyou.com/sites/default/files/image/2014/01/400xvariable/i/2009/11/bacon-package-l.jpg"
             }
          ],
-         "tools":[
-            {
-               "name":"Non-Stick Frying Pan",
-               "img":"http://ecx.images-amazon.com/images/I/31SWl2ykPVL.jpg"
+      "tools": [
+        {
+          "name": "Non-Stick Frying Pan",
+          "img": "http://ecx.images-amazon.com/images/I/31SWl2ykPVL.jpg"
             },
-            {
-               "name":"Plate",
-               "img":"https://cdn.shopify.com/s/files/1/0076/9852/products/falcon.plate.blue.1_large.jpg?v=1428921960"
+        {
+          "name": "Plate",
+          "img": "https://cdn.shopify.com/s/files/1/0076/9852/products/falcon.plate.blue.1_large.jpg?v=1428921960"
             },
-            {
-               "name":"Tongs",
-               "img":"http://st.hzcdn.com/simgs/0a015d110188ad98_4-3249/traditional-kitchen-tongs.jpg"
+        {
+          "name": "Tongs",
+          "img": "http://st.hzcdn.com/simgs/0a015d110188ad98_4-3249/traditional-kitchen-tongs.jpg"
             }
          ],
-         "steps":[
-            {
-               "name":"Step One",
-               "number":1,
-               "description":"Start with a cold pan. Bacon should be started in a cold pan, so before you turn on the heat, lay out your strips on the pan.",
-               "img":"",
-               "timer":false
+      "steps": [
+        {
+          "name": "Step One",
+          "number": 1,
+          "description": "Start with a cold pan. Bacon should be started in a cold pan, so before you turn on the heat, lay out your strips on the pan.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Two",
-               "number":2,
-               "description":"Cook bacon slowly on low heat.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Two",
+          "number": 2,
+          "description": "Cook bacon slowly on low heat.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Three",
-               "number":3,
-               "description":"Pour off grease carefully.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Three",
+          "number": 3,
+          "description": "Pour off grease carefully.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Four",
-               "number":4,
-               "description":"Cook until the bacon is done on both sides. Handle bacon with tongs.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Four",
+          "number": 4,
+          "description": "Cook until the bacon is done on both sides. Handle bacon with tongs.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Five",
-               "number":5,
-               "description":"Let the cooked bacon drain.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Five",
+          "number": 5,
+          "description": "Let the cooked bacon drain.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Six",
-               "number":6,
-               "description":"Cook the remaining bacon in batches.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Six",
+          "number": 6,
+          "description": "Cook the remaining bacon in batches.",
+          "img": "",
+          "timer": false
             }
          ],
-         "variations":"Try serving bacon with other brakfast food!"
+      "variations": "Try serving bacon with other brakfast food!"
       },
-       {  
-         "name":"Chicken Fingers and Fries",
-         "level":2,
-         "prepTime":10,
-         "cookTime":35,
-         "ingredients":[  
-            {  
-               "name":"Frozen Chicken Strips",
-               "img":"https://hauteapplepie.files.wordpress.com/2012/09/chicken-fingers2.jpg"
+    {
+      "name": "Chicken Fingers and Fries",
+      "level": 2,
+      "prepTime": 10,
+      "cookTime": 35,
+      "ingredients": [
+        {
+          "name": "Frozen Chicken Strips",
+          "img": "https://hauteapplepie.files.wordpress.com/2012/09/chicken-fingers2.jpg"
             },
-            {  
-               "name":"Frozen French Fries",
-               "img":"http://img.21food.com/userimages/sophieshl/sophieshl$42316938.jpg"
+        {
+          "name": "Frozen French Fries",
+          "img": "http://img.21food.com/userimages/sophieshl/sophieshl$42316938.jpg"
             }
          ],
-         "tools":[  
-            {  
-               "name":"Large Ungreased Baking Sheet",
-               "img":"http://ecx.images-amazon.com/images/I/71ngVEA4w2S._SX522_.jpg"
+      "tools": [
+        {
+          "name": "Large Ungreased Baking Sheet",
+          "img": "http://ecx.images-amazon.com/images/I/71ngVEA4w2S._SX522_.jpg"
             },
-             {  
-               "name":"Oven Mitts",
-               "img":"http://kgbmarketing.com/wp-content/uploads/2014/06/Mitts-highheat.jpg"
+        {
+          "name": "Oven Mitts",
+          "img": "http://kgbmarketing.com/wp-content/uploads/2014/06/Mitts-highheat.jpg"
             },
-             {  
-               "name":"Spatula",
-               "img":"http://ecx.images-amazon.com/images/I/71Q1dWUPA2L._SL1500_.jpg"
+        {
+          "name": "Spatula",
+          "img": "http://ecx.images-amazon.com/images/I/71Q1dWUPA2L._SL1500_.jpg"
             }
          ],
-         "steps":[  
-            {  
-               "name":"Step One",
-               "number":1,
-               "description":"Preheat oven to 375 farenheit.",
-               "img":"",
-               "timer":false
+      "steps": [
+        {
+          "name": "Step One",
+          "number": 1,
+          "description": "Preheat oven to 375 farenheit.",
+          "img": "",
+          "timer": false
             },
-            {  
-               "name":"Step Two",
-               "number":2,
-               "description":"Arrange desired amount of chicken fingers and fries in a single layer on the ungreased baking sheet.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Two",
+          "number": 2,
+          "description": "Arrange desired amount of chicken fingers and fries in a single layer on the ungreased baking sheet.",
+          "img": "",
+          "timer": false
             },
-            {  
-               "name":"Step Three",
-               "number":3,
-               "description":"The oven will beep when it has reached the appropriate temperature. Open the oven door carefully, keeping your head back to avoid the hot air which will come out. Place the baking sheet on the middle rack and close the oven door. Set a timer for 12 minutes.",
-               "img":"",
-               "timer":true
+        {
+          "name": "Step Three",
+          "number": 3,
+          "description": "The oven will beep when it has reached the appropriate temperature. Open the oven door carefully, keeping your head back to avoid the hot air which will come out. Place the baking sheet on the middle rack and close the oven door. Set a timer for 12 minutes.",
+          "img": "",
+          "timer": true
             },
-            {  
-               "name":"Step Four",
-               "number":4,
-               "description":"After the 12 minutes are up, put on oven mitts and remove the baking sheet from the oven. Use a spatula to flip the chicken fingers and fries. Carefully put the baking sheet back onto te middle rack, setting a timer for an additional 16 minutes.",
-               "img":"",
-               "timer":true
+        {
+          "name": "Step Four",
+          "number": 4,
+          "description": "After the 12 minutes are up, put on oven mitts and remove the baking sheet from the oven. Use a spatula to flip the chicken fingers and fries. Carefully put the baking sheet back onto te middle rack, setting a timer for an additional 16 minutes.",
+          "img": "",
+          "timer": true
             },
-            {  
-               "name":"Step Five",
-               "number":5,
-               "description":"Remove baking sheet from oven using oven mitts after the 16 minutes is up. You may want to bake them for an additional couple minutes, depending on the level of crispiness you desire. Turn off the oven, and serve the chicken and fries using the spatula.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Five",
+          "number": 5,
+          "description": "Remove baking sheet from oven using oven mitts after the 16 minutes is up. You may want to bake them for an additional couple minutes, depending on the level of crispiness you desire. Turn off the oven, and serve the chicken and fries using the spatula.",
+          "img": "",
+          "timer": false
             }
          ],
-         "variations":"Try plum sauce with your chicken fingers!"
+      "variations": "Try plum sauce with your chicken fingers!"
       },
-	  {
-         "name":"Mashed Potatoes",
-         "level":3,
-         "prepTime":15,
-         "cookTime":20,
-         "ingredients":[
-            {
-               "name":"Potatoes - 2 Pounds (About 3 Potatoes)",
-               "img":"http://parentinghealthybabies.com/wp-content/uploads/2013/03/potato.jpg"
+    {
+      "name": "Mashed Potatoes",
+      "level": 3,
+      "prepTime": 15,
+      "cookTime": 20,
+      "ingredients": [
+        {
+          "name": "Potatoes - 2 Pounds (About 3 Potatoes)",
+          "img": "http://parentinghealthybabies.com/wp-content/uploads/2013/03/potato.jpg"
             },
-			{
-               "name":"Butter - 2 Tablespoons",
-               "img":"http://blog.freshharvestga.com/wp-content/uploads/2014/09/Butter.jpg"
+        {
+          "name": "Butter - 2 Tablespoons",
+          "img": "http://blog.freshharvestga.com/wp-content/uploads/2014/09/Butter.jpg"
             },
-			{
-               "name":"Milk - 1 Cup",
-               "img":"https://sumofus-production-media.s3.amazonaws.com/a/img/milk_blue_bg.jpg"
+        {
+          "name": "Milk - 1 Cup",
+          "img": "https://sumofus-production-media.s3.amazonaws.com/a/img/milk_blue_bg.jpg"
             },
-			{
-               "name":"Salt and Pepper - as much as desired to enhance flavor",
-               "img":"http://images.containerstore.com/catalogimages/212811/670060SaltOrPepperShaker2oz_600.jpg"
+        {
+          "name": "Salt and Pepper - as much as desired to enhance flavor",
+          "img": "http://images.containerstore.com/catalogimages/212811/670060SaltOrPepperShaker2oz_600.jpg"
             }
          ],
-         "tools":[
-            {
-               "name":"Pot (with salted water that can hold the potatoes)",
-               "img":"http://www.webstaurantstore.com/images/products/main/56265/274440/vollrath-77520-tribute-8-qt-sauce-stock-pot.jpg"
+      "tools": [
+        {
+          "name": "Pot (with salted water that can hold the potatoes)",
+          "img": "http://www.webstaurantstore.com/images/products/main/56265/274440/vollrath-77520-tribute-8-qt-sauce-stock-pot.jpg"
             },
-            {
-               "name":"Cutting Board",
-               "img":"http://www.corebamboo.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/C/B/CBPY476_1_1.jpg"
+        {
+          "name": "Cutting Board",
+          "img": "http://www.corebamboo.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/C/B/CBPY476_1_1.jpg"
             },
-			{
-               "name":"Peeler",
-               "img":"http://www.jbprince.com/images/D425_zoom.jpg"
+        {
+          "name": "Peeler",
+          "img": "http://www.jbprince.com/images/D425_zoom.jpg"
             },
-            {
-               "name":"Sharp Knife",
-               "img":"https://static.boker.de/images/zoom/131467.jpg"
+        {
+          "name": "Sharp Knife",
+          "img": "https://static.boker.de/images/zoom/131467.jpg"
             },
-			{
-               "name":"Oven Mitts (for draining the pot)",
-               "img":"http://kgbmarketing.com/wp-content/uploads/2014/06/Mitts-highheat.jpg"
+        {
+          "name": "Oven Mitts (for draining the pot)",
+          "img": "http://kgbmarketing.com/wp-content/uploads/2014/06/Mitts-highheat.jpg"
             },
-			{
-               "name":"Bowl (for mashing)",
-               "img":"http://images.sweetbakingsupply.com/stainless%20steel%20mixing%20bowl.jpg"
+        {
+          "name": "Bowl (for mashing)",
+          "img": "http://images.sweetbakingsupply.com/stainless%20steel%20mixing%20bowl.jpg"
             },
-			{
-               "name":"Masher",
-               "img":"http://ecx.images-amazon.com/images/I/31DEEK9E32L._SX300_.jpg"
+        {
+          "name": "Masher",
+          "img": "http://ecx.images-amazon.com/images/I/31DEEK9E32L._SX300_.jpg"
             }
          ],
-         "steps":[
-            {
-               "name":"Step One",
-               "number":1,
-               "description":"Wash, peel, and cut the potatoes into quarters.",
-               "img":"",
-               "timer":false
+      "steps": [
+        {
+          "name": "Step One",
+          "number": 1,
+          "description": "Wash, peel, and cut the potatoes into quarters.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Two",
-               "number":2,
-               "description":"Put the potatoes in the pot on the stove to boil for about 15 minutes until they are tender.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Two",
+          "number": 2,
+          "description": "Put the potatoes in the pot on the stove to boil for about 15 minutes until they are tender.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Three",
-               "number":3,
-               "description":"Drain the pot carefully. Put potatoes in bowl.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Three",
+          "number": 3,
+          "description": "Drain the pot carefully. Put potatoes in bowl.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Four",
-               "number":4,
-               "description":"Mash potatoes thoroughly, mix gentler with milk and butter until it has an even consistency.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Four",
+          "number": 4,
+          "description": "Mash potatoes thoroughly, mix gentler with milk and butter until it has an even consistency.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Five",
-               "number":5,
-               "description":"Season with salt and pepper to taste.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Five",
+          "number": 5,
+          "description": "Season with salt and pepper to taste.",
+          "img": "",
+          "timer": false
             }
          ],
-         "variations":"Try serving mashed potatoes with gravy and steamed vegetables!"
+      "variations": "Try serving mashed potatoes with gravy and steamed vegetables!"
       },
-       {
-         "name":"House Salad",
-         "level":3,
-         "prepTime":10,
-         "cookTime":0,
-         "ingredients":[
-            {
-               "name":"Romaine Lettuce - Half Pre-cut Package",
-               "img":"https://stonesriver.locallygrown.net/files/product/image/169570/original/choppedromainelettuce-406.jpg?1425768361"
+    {
+      "name": "House Salad",
+      "level": 3,
+      "prepTime": 10,
+      "cookTime": 0,
+      "ingredients": [
+        {
+          "name": "Romaine Lettuce - Half Pre-cut Package",
+          "img": "https://stonesriver.locallygrown.net/files/product/image/169570/original/choppedromainelettuce-406.jpg?1425768361"
             },
-            {
-               "name":"Plum Tomato - 1 Small",
-               "img":"http://www.finecooking.com/assets/uploads/posts/5611/ING-plum-tomatoes_sql.jpg"
+        {
+          "name": "Plum Tomato - 1 Small",
+          "img": "http://www.finecooking.com/assets/uploads/posts/5611/ING-plum-tomatoes_sql.jpg"
             },
-             {
-               "name":"Cucumber - 1/2",
-               "img":"http://www.medicalnewstoday.com/content/images/articles/283/283006/cucumber.jpg"
+        {
+          "name": "Cucumber - 1/2",
+          "img": "http://www.medicalnewstoday.com/content/images/articles/283/283006/cucumber.jpg"
             },
-             {
-               "name":"Yellow Onion - 1/2",
-               "img":"https://queenbeefresh.com/images/products/Yellow-onion.jpg"
+        {
+          "name": "Yellow Onion - 1/2",
+          "img": "https://queenbeefresh.com/images/products/Yellow-onion.jpg"
             },
-             {
-               "name":"Carrot - 1 Large",
-               "img":"http://oliviajenkins.com.au/wp-content/uploads/2015/01/CARROTS.jpg"
+        {
+          "name": "Carrot - 1 Large",
+          "img": "http://oliviajenkins.com.au/wp-content/uploads/2015/01/CARROTS.jpg"
             },
-             {
-               "name":"Italian Dressing",
-               "img":"https://upload.wikimedia.org/wikipedia/commons/d/d4/Italian_dressing.jpg"
+        {
+          "name": "Italian Dressing",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Italian_dressing.jpg"
             }
          ],
-         "tools":[
-            {
-               "name":"Sharp Knife",
-               "img":"https://static.boker.de/images/zoom/131467.jpg"
+      "tools": [
+        {
+          "name": "Sharp Knife",
+          "img": "https://static.boker.de/images/zoom/131467.jpg"
             },
-             {
-               "name":"Cutting Board",
-               "img":"http://www.corebamboo.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/C/B/CBPY476_1_1.jpg"
+        {
+          "name": "Cutting Board",
+          "img": "http://www.corebamboo.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/C/B/CBPY476_1_1.jpg"
             },
-            {
-               "name":"Large Bowl",
-               "img":"http://images.sweetbakingsupply.com/stainless%20steel%20mixing%20bowl.jpg"
+        {
+          "name": "Large Bowl",
+          "img": "http://images.sweetbakingsupply.com/stainless%20steel%20mixing%20bowl.jpg"
             },
-            {
-               "name":"Peeler",
-               "img":"http://www.jbprince.com/images/D425_zoom.jpg"
+        {
+          "name": "Peeler",
+          "img": "http://www.jbprince.com/images/D425_zoom.jpg"
             }
          ],
-         "steps":[
-            {
-               "name":"Step One",
-               "number":1,
-               "description":"Dice the cucumber, tomato, and onion. (Dicing means cutting vegetables into small cubes.) Peel the outside of the carrot, and then continue to peel off strips of the carrot to add to the salad.",
-               "img":"",
-               "timer":false
+      "steps": [
+        {
+          "name": "Step One",
+          "number": 1,
+          "description": "Dice the cucumber, tomato, and onion. (Dicing means cutting vegetables into small cubes.) Peel the outside of the carrot, and then continue to peel off strips of the carrot to add to the salad.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Two",
-               "number":2,
-               "description":"Add chopped lettuce to large bowl, and top with all the vegetables.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Two",
+          "number": 2,
+          "description": "Add chopped lettuce to large bowl, and top with all the vegetables.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Three",
-               "number":3,
-               "description":"Add as much salad dressing as you desire, and then toss the salad to thoroughly coat vegetables with dressing.",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Three",
+          "number": 3,
+          "description": "Add as much salad dressing as you desire, and then toss the salad to thoroughly coat vegetables with dressing.",
+          "img": "",
+          "timer": false
             },
-            {
-               "name":"Step Four",
-               "number":4,
-               "description":"Serve into a smaller bowl, and enjoy!",
-               "img":"",
-               "timer":false
+        {
+          "name": "Step Four",
+          "number": 4,
+          "description": "Serve into a smaller bowl, and enjoy!",
+          "img": "",
+          "timer": false
             }
          ],
-         "variations":"Add walnuts or croutons to the salad for an added crunch!"
+      "variations": "Add walnuts or croutons to the salad for an added crunch!"
       }
    ]
 }

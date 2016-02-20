@@ -13,7 +13,19 @@ angular.module('app', [
   ])
   .config(config)
   .run(run)
-  .controller('HomeCtrl', HomeCtrl);
+  .factory('DatabaseService', DatabaseServ)
+  .controller('HomeCtrl', HomeCtrl)
+  .controller('RecipeCtrl', RecipeCtrl)
+  .directive('noScroll', function () {
+    return {
+      restrict: 'A',
+      link: function ($scope, $element, $attr) {
+        $element.on('touchmove', function (e) {
+          e.preventDefault();
+        });
+      }
+    }
+  });
 
 function config($stateProvider, $urlRouterProvider) {
 
@@ -26,6 +38,14 @@ function config($stateProvider, $urlRouterProvider) {
       url: '/',
       templateUrl: 'com/home/home.html',
       controller: 'HomeCtrl as home'
+    })
+    .state('recipe', {
+      url: '/r',
+      templateUrl: 'com/recipe/recipe.html',
+      controller: 'RecipeCtrl as recipe',
+      params: {
+        index: null
+      }
     });
   // .state('app.deal', {
   //   url: '/deallists/:dealId',

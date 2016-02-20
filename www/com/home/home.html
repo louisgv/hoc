@@ -1,17 +1,11 @@
 <!DOCTYPE html>
 <ion-view class="home">
-  <ion-nav-title class="logo">
-    HOUSE OF CARBS
-  </ion-nav-title>
+  <ion-content class="has-header app-bg">
 
-  <ion-content class="has-header app-bg" overflow-scroll="true">
-
-    <button class="button button-positive" ng-repeat="r in home.recipes" ng-click="home.chooseRecipe($index)">
+    <button class="button button-dark"
+      ng-repeat="r in home.recipes" ng-click="home.chooseRecipe($index)">
       Recipe #{{$index + 1}}, level {{r.level}}
     </button>
-
-
-
 
   </ion-content>
 </ion-view>

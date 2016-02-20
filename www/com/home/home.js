@@ -2,41 +2,18 @@
 
 var recipesAPI = "./com/home/db/recipes.json";
 
-function HomeCtrl($http, $ionicLoading) {
+function HomeCtrl($http, $state, $ionicLoading, DatabaseService) {
   console.log("HomeCtrl");
 
   var home = this;
 
-  home.cardDestroyed = function (index) {
-    // var newCard = home.recipe.steps.splice(index, 1)[0];
-    // newCard.id = Math.random();
-    // // home.recipe.steps.push(angular.extend({}, newCard));
-    // home.recipe.steps.unshift(angular.extend({}, newCard));
-    //
-    // console.log(index);
-  }
-
-  home.cardSwipedLeft = function(index) {
-    // home.recipe.steps.push(home.recipe.steps[index]);
-    // home.recipe.steps.push();
-    var newCard = home.recipe.steps.splice(index, 1)[0];
-    newCard.id = Math.random();
-    // home.recipe.steps.push(angular.extend({}, newCard));
-    home.recipe.steps.unshift(angular.extend({}, newCard));
-  }
-
-  // home.recipe.steps.push(home.recipe.steps.splice(index, 1)[0]);
-  home.cardSwipedRight = function(index) {
-    // console.log(home.recipe.steps);
-    home.recipe.steps.splice(index, 1);
-
-  }
-
   home.chooseRecipe = function (index) {
 
-    home.recipe = angular.copy(home.recipes[index]);
+    // home.recipe = angular.copy(DatabaseService.recipes[index]);
 
-    console.log(home.recipe.steps);
+    $state.go('recipe', {
+      index: index
+    });
 
     // home.recipe.steps = home.recipe.steps.reverse();
   }
@@ -46,22 +23,29 @@ function HomeCtrl($http, $ionicLoading) {
       template: '<ion-spinner icon="ripple" class="spinner-energized"></ion-spinner><br>Fetching Recipes',
       animation: 'fade-in'
     });
+
     $http.get(recipesAPI)
       .then(
         function (response) {
           console.log(response.data);
-
           home.recipes = response.data.recipe;
+
+          DatabaseService.recipes = response.data.recipe;
 
           $ionicLoading.hide();
         },
         function (err) {
           $ionicLoading.hide();
-          alert("Too vague Idea, no keywords found...");
+          alert("...YOLO...");
           return console.log(err);
         }
       );
   };
 
-  fetchRecipe();
+  if(!DatabaseService.recipes) {
+    fetchRecipe();
+  } else {
+    console.log(DatabaseService.recipes);
+    home.recipes = DatabaseService.recipes;
+  }
 }

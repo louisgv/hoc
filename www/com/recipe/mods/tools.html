@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<!-- <td-cards ng-show="home.recipe.content"> -->
+<td-cards ng-show="recipe.show === 1">
+  <td-card ng-repeat="t in recipe.content.tools | orderBy:'-'" on-swipe-left="recipe.cardSwipedLeft($index)" on-swipe-right="recipe.cardSwipedRight($index)">
+    <div class="card">
+      <div class="item item-text-wrap">
+        {{t.name}}
+
+      </div>
+      <div class="item image">
+        <img ng-src="{{t.img}}" alt="" />
+      </div>
+    </div>
+  </td-card>
+</td-cards>
