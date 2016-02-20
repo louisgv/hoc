@@ -7,11 +7,24 @@
   <ion-content class="has-header app-bg" overflow-scroll="true">
 
     <td-cards>
-      <td-card ng-repeat="i in home.recipe.ingredients" on-destroy="cardDestroyed($index)" on-swipe="cardSwiped($index)">
+      <!-- <td-card ng-repeat="i in home.recipe.ingredients" on-destroy="cardDestroyed($index)" on-swipe="cardSwiped($index)">
         <div class="card">
           <div class="item item-text-wrap">
             {{i.name}}
             {{i.img}}
+          </div>
+        </div>
+      </td-card> -->
+      <td-card ng-repeat="s in home.recipe.steps" on-destroy="cardDestroyed($index)" on-swipe="cardSwiped($index)">
+        <div class="card">
+          <div class="item item-text-wrap">
+            {{s.name}}
+          </div>
+          <div class="item">
+            {{s.img}}
+          </div>
+          <div class="item item-text-wrap">
+            {{s.description}}
           </div>
         </div>
       </td-card>
