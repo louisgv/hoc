@@ -212,6 +212,77 @@
             }
          ],
          "variations":"Try frying up an over easy egg with a slab of cheese on and mix it in with the noodles for more flavour and protein!"
+      },
+	  {
+         "name":"Bacon",
+         "level":2,
+         "prepTime":0,
+         "cookTime":10,
+         "ingredients":[
+            {
+               "name":"Bacon - 1 package",
+               "img":""
+            },
+         ],
+         "tools":[
+            {
+               "name":"Skillet",
+               "img":""
+            },
+            {
+               "name":"Plate",
+               "img":""
+            },
+            {
+               "name":"Tongs",
+               "img":""
+            }
+         ],
+         "steps":[
+            {
+               "name":"Step One",
+               "number":1,
+               "description":"Start with a cold pan. Bacon should be started in a cold pan, so before you turn on the heat, lay out your strips on the pan.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Two",
+               "number":2,
+               "description":"Cook bacon slowly on low heat.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Three",
+               "number":3,
+               "description":"Pour off grease carefully.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Four",
+               "number":4,
+               "description":"Cook until the bacon is done on both sides. Handle bacon with tongs.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Five",
+               "number":5,
+               "description":"Let the cooked bacon drain.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Six",
+               "number":6,
+               "description":"Cook the remaining bacon in batches.",
+               "img":"",
+               "timer":false
+            }
+         ],
+         "variations":"Try serving bacon with other brakfast food!"
       }
    ]
 }
