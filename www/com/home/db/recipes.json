@@ -222,7 +222,7 @@
             {
                "name":"Bacon - 1 package",
                "img":""
-            },
+            }
          ],
          "tools":[
             {
@@ -283,6 +283,74 @@
             }
          ],
          "variations":"Try serving bacon with other brakfast food!"
+      },
+       {  
+         "name":"Chicken Fingers and Fries",
+         "level":2,
+         "prepTime":10,
+         "cookTime":35,
+         "ingredients":[  
+            {  
+               "name":"Frozen Chicken Strips",
+               "img":""
+            },
+            {  
+               "name":"Frozen French Fries",
+               "img":""
+            }
+         ],
+         "tools":[  
+            {  
+               "name":"Large Ungreased Baking Sheet",
+               "img":""
+            },
+             {  
+               "name":"Oven Mitts",
+               "img":""
+            },
+             {  
+               "name":"Spatula",
+               "img":""
+            }
+         ],
+         "steps":[  
+            {  
+               "name":"Step One",
+               "number":1,
+               "description":"Preheat oven to 375 farenheit.",
+               "img":"",
+               "timer":false
+            },
+            {  
+               "name":"Step Two",
+               "number":2,
+               "description":"Arrange desired amount of chicken fingers and fries in a single layer on the ungreased baking sheet.",
+               "img":"",
+               "timer":false
+            },
+            {  
+               "name":"Step Three",
+               "number":3,
+               "description":"The oven will beep when it has reached the appropriate temperature. Open the oven door carefully, keeping your head back to avoid the hot air which will come out. Place the baking sheet on the middle rack and close the oven door. Set a timer for 12 minutes.",
+               "img":"",
+               "timer":true
+            },
+            {  
+               "name":"Step Four",
+               "number":4,
+               "description":"After the 12 minutes are up, put on oven mitts and remove the baking sheet from the oven. Use a spatula to flip the chicken fingers and fries. Carefully put the baking sheet back onto te middle rack, setting a timer for an additional 16 minutes.",
+               "img":"",
+               "timer":true
+            },
+            {  
+               "name":"Step Five",
+               "number":5,
+               "description":"Remove baking sheet from oven using oven mitts after the 16 minutes is up. You may want to bake them for an additional couple minutes, depending on the level of crispiness you desire. Turn off the oven, and serve the chicken and fries using the spatula.",
+               "img":"",
+               "timer":false
+            }
+         ],
+         "variations":"Try plum sauce with your chicken fingers!"
       }
    ]
 }
