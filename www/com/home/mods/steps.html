@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<td-cards ng-show="home.recipe">
+  <td-card ng-repeat="s in home.recipe.steps | orderBy:'-'"
+    on-destroy="home.cardDestroyed($index)"
+    on-swipe-left="home.cardSwipedLeft($index)"
+    on-swipe-right="home.cardSwipedRight($index)">
+    <div class="card">
+      <div class="item item-text-wrap">
+        {{s.name}}
+      </div>
+      <div class="item">
+        {{s.img}}
+      </div>
+      <div class="item item-text-wrap">
+        {{s.description}}
+      </div>
+    </div>
+  </td-card>
+</td-cards>

@@ -10,37 +10,8 @@
       Recipe #{{$index + 1}}, level {{r.level}}
     </button>
 
-    <!-- <td-cards>
-      <td-card ng-repeat="i in home.recipe.ingredients" on-destroy="cardDestroyed($index)" on-swipe="cardSwiped($index)">
-        <div class="card">
-          <div class="item item-text-wrap">
-            {{i.name}}
-            {{i.img}}
-          </div>
-        </div>
-      </td-card>
-    </td-cards> -->
 
 
-
-    <td-cards ng-show="home.recipe">
-      <td-card ng-repeat="s in home.recipe.steps | orderBy:'-'"
-        on-destroy="home.cardDestroyed($index)"
-        on-swipe-left="home.cardSwipedLeft($index)"
-        on-swipe-right="home.cardSwipedRight($index)">
-        <div class="card">
-          <div class="item item-text-wrap">
-            {{s.name}}
-          </div>
-          <div class="item">
-            {{s.img}}
-          </div>
-          <div class="item item-text-wrap">
-            {{s.description}}
-          </div>
-        </div>
-      </td-card>
-    </td-cards>
 
   </ion-content>
 </ion-view>
