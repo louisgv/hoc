@@ -9090,14 +9090,68 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-.home .item-input {
-  color: white;
-  background: white; }
-
-.home .item-group {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around; }
+.home {
+  /*
+  td-card.card-0 {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0);
+    top: 0px;
+    z-index: 10;
+  }
+  td-card.card-1 {
+    -webkit-transform: translate3d(0, 4px, 0);
+    transform: translate3d(0, 4px, 0);
+    z-index: 9;
+  }
+  td-card.card-2 {
+    -webkit-transform: translate3d(0, 8px, 0);
+    transform: translate3d(0, 8px, 0);
+    z-index: 8;
+  }
+  */ }
+  .home .item-input {
+    color: white;
+    background: white; }
+  .home .item-group {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around; }
+  .home td-cards {
+    display: block; }
+  .home td-card {
+    position: absolute;
+    left: 50%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: -150px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #999;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 6px; }
+  .home td-card .image {
+    position: relative; }
+  .home td-card img {
+    max-width: 100%;
+    border-radius: 6px; }
+  .home .yes-text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 30px;
+    color: #6ffa6f;
+    opacity: 0; }
+  .home .no-text {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: #ff7373;
+    opacity: 0; }
+  .home .fade {
+    -webkit-transition: 0.2s opacity linear;
+    transition: 0.2s opacity linear;
+    opacity: 0; }
 
 textarea {
   resize: vertical;

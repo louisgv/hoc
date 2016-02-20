@@ -6,5 +6,15 @@
 
   <ion-content class="has-header app-bg" overflow-scroll="true">
 
+    <td-cards>
+      <td-card ng-repeat="i in home.recipe.ingredients" on-destroy="cardDestroyed($index)" on-swipe="cardSwiped($index)">
+        <div class="card">
+          <div class="item item-text-wrap">
+            {{i.name}}
+            {{i.img}}
+          </div>
+        </div>
+      </td-card>
+    </td-cards>
   </ion-content>
 </ion-view>

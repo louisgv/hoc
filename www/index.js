@@ -8,7 +8,8 @@
 angular.module('app', [
     'ionic',
     'camera',
-    'chart.js'
+    'chart.js',
+    'ionic.contrib.ui.tinderCards'
   ])
   .config(config)
   .run(run)
