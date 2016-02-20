@@ -149,7 +149,146 @@
 					],
 					variations: "Try serving with ketchup or your favorite hot sauce!" 
 
-			}
+			},
+						{
+
+		name: "Instant Ramen",
+
+		level: 1,
+
+		prepTime: 2,
+
+		cookTime: 10,
+
+ingredients: [
+
+{
+
+name: "Instant Ramen - 1 package",
+
+img: ""
+
+},
+
+{
+
+name: "Water - 2 cups",
+
+img:""
+
+},
+
+
+],
+
+tools: [
+
+{
+
+name: "Small Sauce Pan",
+
+img: ""
+
+},
+
+{
+
+name: "Bowl",
+
+img: ""
+
+},
+
+{
+
+name: "Fork",
+
+img: ""
+
+}
+
+],
+
+
+steps: [
+
+{
+
+name: "Step One",
+
+number: 1,
+
+description: "Heat 2 cups of water to a boil in the sauce pan.",
+
+img: "",
+
+timer: false
+
+},
+
+{
+
+name: "Step Two",
+
+number: 2,
+
+description: "Put ramen noodles in the boiling water.",
+
+img: "",
+
+timer: false
+
+},
+
+{
+
+name: "Step Three",
+
+number: 3,
+
+description: "After 3 minutes of cooking, remove the sauce pan from heat and drain excess water. Leave a little water to help mix the seasoning.",
+
+img: "",
+
+timer: false
+
+},
+
+{
+
+name: "Step Four",
+
+number: 4,
+
+description: "Open seasoning packet and put in a bowl with noodles. Stir in the seasoning.",
+
+img: "",
+
+timer: false
+
+},
+
+{
+
+name: "Step Five",
+
+number: 5,
+
+description: "Be sure to turn off the stovetop.",
+
+img: "",
+
+timer: false
+
+}
+
+],
+
+variations: "Try frying up an over easy egg with a slab of cheese on and mix it in with the noodles for more flavour and protein!" 
+
+
+}
+
 
 
 	]
