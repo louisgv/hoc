@@ -212,6 +212,314 @@
             }
          ],
          "variations":"Try frying up an over easy egg with a slab of cheese on and mix it in with the noodles for more flavour and protein!"
+      },
+	  {
+         "name":"Bacon",
+         "level":2,
+         "prepTime":0,
+         "cookTime":10,
+         "ingredients":[
+            {
+               "name":"Bacon - 1 package",
+               "img":""
+            }
+         ],
+         "tools":[
+            {
+               "name":"Skillet",
+               "img":""
+            },
+            {
+               "name":"Plate",
+               "img":""
+            },
+            {
+               "name":"Tongs",
+               "img":""
+            }
+         ],
+         "steps":[
+            {
+               "name":"Step One",
+               "number":1,
+               "description":"Start with a cold pan. Bacon should be started in a cold pan, so before you turn on the heat, lay out your strips on the pan.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Two",
+               "number":2,
+               "description":"Cook bacon slowly on low heat.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Three",
+               "number":3,
+               "description":"Pour off grease carefully.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Four",
+               "number":4,
+               "description":"Cook until the bacon is done on both sides. Handle bacon with tongs.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Five",
+               "number":5,
+               "description":"Let the cooked bacon drain.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Six",
+               "number":6,
+               "description":"Cook the remaining bacon in batches.",
+               "img":"",
+               "timer":false
+            }
+         ],
+         "variations":"Try serving bacon with other brakfast food!"
+      },
+       {  
+         "name":"Chicken Fingers and Fries",
+         "level":2,
+         "prepTime":10,
+         "cookTime":35,
+         "ingredients":[  
+            {  
+               "name":"Frozen Chicken Strips",
+               "img":""
+            },
+            {  
+               "name":"Frozen French Fries",
+               "img":""
+            }
+         ],
+         "tools":[  
+            {  
+               "name":"Large Ungreased Baking Sheet",
+               "img":""
+            },
+             {  
+               "name":"Oven Mitts",
+               "img":""
+            },
+             {  
+               "name":"Spatula",
+               "img":""
+            }
+         ],
+         "steps":[  
+            {  
+               "name":"Step One",
+               "number":1,
+               "description":"Preheat oven to 375 farenheit.",
+               "img":"",
+               "timer":false
+            },
+            {  
+               "name":"Step Two",
+               "number":2,
+               "description":"Arrange desired amount of chicken fingers and fries in a single layer on the ungreased baking sheet.",
+               "img":"",
+               "timer":false
+            },
+            {  
+               "name":"Step Three",
+               "number":3,
+               "description":"The oven will beep when it has reached the appropriate temperature. Open the oven door carefully, keeping your head back to avoid the hot air which will come out. Place the baking sheet on the middle rack and close the oven door. Set a timer for 12 minutes.",
+               "img":"",
+               "timer":true
+            },
+            {  
+               "name":"Step Four",
+               "number":4,
+               "description":"After the 12 minutes are up, put on oven mitts and remove the baking sheet from the oven. Use a spatula to flip the chicken fingers and fries. Carefully put the baking sheet back onto te middle rack, setting a timer for an additional 16 minutes.",
+               "img":"",
+               "timer":true
+            },
+            {  
+               "name":"Step Five",
+               "number":5,
+               "description":"Remove baking sheet from oven using oven mitts after the 16 minutes is up. You may want to bake them for an additional couple minutes, depending on the level of crispiness you desire. Turn off the oven, and serve the chicken and fries using the spatula.",
+               "img":"",
+               "timer":false
+            }
+         ],
+         "variations":"Try plum sauce with your chicken fingers!"
+      },
+	  {
+         "name":"Mashed Potatoes",
+         "level":3,
+         "prepTime":15,
+         "cookTime":20,
+         "ingredients":[
+            {
+               "name":"Potatoes - 2 Pounds (About 3 Potatoes)",
+               "img":""
+            },
+			{
+               "name":"Butter - 2 Tablespoons",
+               "img":""
+            },
+			{
+               "name":"Milk - 1 Cup",
+               "img":""
+            },
+			{
+               "name":"Salt and Pepper - as much as desired to enhance flavor",
+               "img":""
+            }
+         ],
+         "tools":[
+            {
+               "name":"Pot (with salted water that can hold the potatoes)",
+               "img":""
+            },
+            {
+               "name":"Cutting Board",
+               "img":""
+            },
+			{
+               "name":"Peeler",
+               "img":""
+            },
+            {
+               "name":"Sharp Knife",
+               "img":""
+            },
+			{
+               "name":"Oven Mitts (for draining the pot)",
+               "img":""
+            },
+			{
+               "name":"Bowl (for mashing)",
+               "img":""
+            },
+			{
+               "name":"Masher",
+               "img":""
+            }
+         ],
+         "steps":[
+            {
+               "name":"Step One",
+               "number":1,
+               "description":"Wash, peel, and cut the potatoes into quarters.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Two",
+               "number":2,
+               "description":"Put the potatoes in the pot on the stove to boil for about 15 minutes until they are tender.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Three",
+               "number":3,
+               "description":"Drain the pot carefully. Put potatoes in bowl.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Four",
+               "number":4,
+               "description":"Mash potatoes thoroughly, mix gentler with milk and butter until it has an even consistency.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Five",
+               "number":5,
+               "description":"Season with salt and pepper to taste.",
+               "img":"",
+               "timer":false
+            }
+         ],
+         "variations":"Try serving mashed potatoes with gravy and steamed vegetables!"
+      },
+       {
+         "name":"House Salad",
+         "level":3,
+         "prepTime":10,
+         "cookTime":0,
+         "ingredients":[
+            {
+               "name":"Romaine Lettuce - Half Pre-cut Package",
+               "img":""
+            },
+            {
+               "name":"Plum Tomato - 1 Small",
+               "img":""
+            },
+             {
+               "name":"Cucumber - 1/2",
+               "img":""
+            },
+             {
+               "name":"Yellow Onion - 1/2",
+               "img":""
+            },
+             {
+               "name":"Carrot - 1 Large",
+               "img":""
+            },
+             {
+               "name":"Italian Dressing",
+               "img":""
+            }
+         ],
+         "tools":[
+            {
+               "name":"Sharp Knife",
+               "img":""
+            },
+            {
+               "name":"Large Bowl",
+               "img":""
+            },
+            {
+               "name":"Cheese Grater",
+               "img":""
+            }
+         ],
+         "steps":[
+            {
+               "name":"Step One",
+               "number":1,
+               "description":"Dice the cucumber, tomato, and onion. (Dicing means cutting vegetables into small cubes.) Peel the carrot, and use a cheese grater to create shredded carrots.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Two",
+               "number":2,
+               "description":"Add chopped lettuce to large bowl, and top with all the vegetables.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Three",
+               "number":3,
+               "description":"Add as much salad dressing as you desire, and then toss the salad to thoroughly coat vegetables with dressing.",
+               "img":"",
+               "timer":false
+            },
+            {
+               "name":"Step Four",
+               "number":4,
+               "description":"Serve into a smaller bowl, and enjoy!",
+               "img":"",
+               "timer":false
+            }
+         ],
+         "variations":"Add walnuts or croutons to the salad for an added crunch!"
       }
    ]
 }
