@@ -23,6 +23,7 @@ function RecipeCtrl($scope, $state, $stateParams, $filter, DatabaseService) {
   recipe.toNextStage = function () {
     recipe.nextStep = 0;
     ++recipe.show;
+
   }
 
 
