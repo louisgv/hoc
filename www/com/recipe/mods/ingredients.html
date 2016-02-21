@@ -2,6 +2,7 @@
 <!-- <td-cards ng-show="home.recipe"> -->
 <div ng-show="recipe.show === 0" class="card">
   <ion-list>
+
     <ion-checkbox ng-repeat="i in recipe.content.ingredients | orderBy:'-'" ng-model="checked" ng-change="recipe.stateChanged(checked)">
       <div class="item item-text-wrap item-avatar">
         <img class="card-image" ng-src="{{i.img}}" alt="" />
@@ -10,6 +11,11 @@
           {{i.quantity}}
         </p>
       </div>
+      <a ng-href="{{i.target_url}}">
+        <button class="button button-full button-assertive">
+          Find at Target
+        </button>
+      </a>
     </ion-checkbox>
 
     <button class="button button-positive button-large button-full" ng-disabled="recipe.nextStep!==recipe.content.ingredients.length" ng-click="recipe.toNextStage()">

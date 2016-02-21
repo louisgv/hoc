@@ -7,7 +7,8 @@
 
 angular.module('app', [
     'ionic',
-    'firebase'
+    'firebase',
+    'angular-svg-round-progress'
   ])
   .config(config)
   .run(run)

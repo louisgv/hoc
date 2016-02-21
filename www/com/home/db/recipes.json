@@ -9,48 +9,60 @@
         {
           "name": "Sliced Bread",
           "quantity": "2 Slices",
-          "img": "http://images.sodahead.com/polls/001802485/4738455_istockphoto_3046396_bread_two_slices_xlarge.jpeg"
+          "img": "http://images.sodahead.com/polls/001802485/4738455_istockphoto_3046396_bread_two_slices_xlarge.jpeg",
+          "target_url": "http://www.target.com/p/wonder-100-whole-wheat-sliced-bread-16oz/-/A-15080366#prodSlot=medium_1_1&term=bread",
+          "target_id": "261-01-0559"
             },
         {
           "name": "Butter",
           "quantity": "1 Tablespoon",
-          "img": "http://blog.freshharvestga.com/wp-content/uploads/2014/09/Butter.jpg"
+          "img": "http://blog.freshharvestga.com/wp-content/uploads/2014/09/Butter.jpg",
+          "target_url": "http://www.target.com/p/kerrygold-butter-7-5-oz-spreadable-w-canola-oil-tub/-/A-23974843#prodSlot=medium_1_1&term=butter",
+          "target_id": "284-12-0045"
             },
         {
           "name": "Sliced Cheese",
           "quantity": "1 Slice",
-          "img": "http://lackeyafjrotc.com/wp-content/uploads/2016/01/slice-of-cheese-78393-14.jpg"
+          "img": "http://lackeyafjrotc.com/wp-content/uploads/2016/01/slice-of-cheese-78393-14.jpg",
+          "target_url": "http://www.target.com/p/kraft-big-slice-natural-swiss-cheese-slices-8-oz-10-ct/-/A-12955150#prodSlot=medium_1_1&term=cheese+slices",
+          "target_id": "284-11-0283"
             }
          ],
       "tools": [
         {
           "name": "Butter Knife",
-          "img": "http://www.nthsweb.net/horvathc/Sandwich/knife.jpg"
+          "img": "http://www.nthsweb.net/horvathc/Sandwich/knife.jpg",
+          "target_url": "http://www.target.com/p/room-essentials-teagan-dinner-knife/-/A-17413226#prodSlot=medium_1_2&term=butter+knife",
+          "target_id": "200-07-0598"
             },
         {
           "name": "Non-stick Frying Pan",
-          "img": "http://ecx.images-amazon.com/images/I/31SWl2ykPVL.jpg"
+          "img": "http://ecx.images-amazon.com/images/I/31SWl2ykPVL.jpg",
+          "target_url": "http://www.target.com/p/tramontina-porcelain-enamel-non-stick-8-fry-pan-black/-/A-15691601#prodSlot=medium_1_3&term=non-stick+frying+pan",
+          "target_id": "070-01-1040"
             },
         {
           "name": "Spatula",
-          "img": "http://ecx.images-amazon.com/images/I/317BZZM9S5L.jpg"
+          "img": "http://ecx.images-amazon.com/images/I/317BZZM9S5L.jpg",
+          "target_url": "http://www.target.com/p/kitchenaid-black-slotted-turner/-/A-13370347#prodSlot=medium_1_1&term=spatula",
+          "target_id": "070-05-0255"
             }
          ],
       "steps": [
         {
           "name": "Step One",
           "number": 1,
-          "description": "Preheat frying pan over medium heat.",
+          "description": "Preheat frying pan over medium heat (scaled as 4/10).",
           "img": "",
-          "timer": false
-            },
+          "timer": 240
+        },
         {
           "name": "Step Two",
           "number": 2,
           "description": "Generously butter one side of both slices of bread.",
           "img": "",
           "timer": false
-            },
+        },
         {
           "name": "Step Three",
           "number": 3,
