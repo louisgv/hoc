@@ -6,26 +6,13 @@
 // 'starter.controllers' is found in controllers.js
 
 angular.module('app', [
-    'ionic',
-    // 'camera',
-    // 'chart.js',
-    'ionic.contrib.ui.tinderCards'
+    'ionic'
   ])
   .config(config)
   .run(run)
   .factory('DatabaseService', DatabaseServ)
   .controller('HomeCtrl', HomeCtrl)
-  .controller('RecipeCtrl', RecipeCtrl)
-  .directive('noScroll', function () {
-    return {
-      restrict: 'A',
-      link: function ($scope, $element, $attr) {
-        $element.on('touchmove', function (e) {
-          e.preventDefault();
-        });
-      }
-    }
-  });
+  .controller('RecipeCtrl', RecipeCtrl);
 
 function config($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
 

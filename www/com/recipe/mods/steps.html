@@ -1,24 +1,22 @@
 <!DOCTYPE html>
-<!-- <td-cards ng-show="home.recipe.content"> -->
-<td-cards ng-show="recipe.show === 2">
-  <td-card ng-repeat="s in recipe.content.steps | orderBy:'+'"
-  on-destroy="recipe.cardDestroyed($index)"
-  on-swipe-left="recipe.cardSwipedLeft($index)" on-swipe-right="recipe.cardSwipedRight($index)">
 
-    <div class="card">
-      <div class="item item-text-wrap">
-        {{s.name}}
-      </div>
+<div ng-show="recipe.show === 2">
+  <ul swing-stack>
+    <li
+      swing-card
+      swing-on-throwoutleft="recipe.cardSwipedLeft($index)"
+      swing-on-throwoutright="recipe.cardSwipedRight($index)"
+      ng-repeat="s in recipe.content.steps | orderBy:'-'"
+      >
+      <div class="card">
+        <div class="item item-text-wrap">
+          {{s.name}}
+        </div>
 
-      <!--
-      <div class="item image">
-        <img ng-src="{{s.img}}" alt="" />
+        <div class="item item-text-wrap">
+          {{s.description}}
+        </div>
       </div>
-      -->
-
-      <div class="item item-text-wrap">
-        {{s.description}}
-      </div>
-    </div>
-  </td-card>
-</td-cards>
+    </li>
+  </ul>
+</div>

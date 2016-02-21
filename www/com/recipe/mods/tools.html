@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<!-- <td-cards ng-show="home.recipe.content"> -->
-<td-cards ng-show="recipe.show === 1">
-  <td-card ng-repeat="t in recipe.content.tools | orderBy:'-'"
-    on-destroy="recipe.cardDestroyed($index)"
-   on-swipe-left="recipe.cardSwipedLeft($index)" on-swipe-right="recipe.cardSwipedRight($index)">
-    <!-- <div class="card"> -->
-      <div class="item item-text-wrap">
-        {{t.name}}
+<div ng-show="recipe.show === 1">
+  <ion-list>
 
+    <ion-checkbox ng-repeat="i in recipe.content.tools | orderBy:'-'" ng-model="checked" ng-change="recipe.stateChanged(checked)">
+      <div class="item item-text-wrap">
+        {{i.name}}
       </div>
       <div class="item image">
-        <img ng-src="{{t.img}}" alt="" />
+        <img class="card-image" ng-src="{{i.img}}" alt="" />
       </div>
-    <!-- </div> -->
-  </td-card>
-</td-cards>
+
+    </ion-checkbox>
+
+    <button class="button button-assertive button-full" ng-disabled="recipe.nextStep!==recipe.content.tools.length" ng-click="recipe.toNextStage()">
+      Next step : Tools
+    </button>
+  </ion-list>
+</div>

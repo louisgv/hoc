@@ -2,18 +2,18 @@
 <ion-view class="recipe" cache-view="false">
   <ion-nav-buttons side="left">
     <a ng-href="/#/">
-    <button class="button button-positive">
+      <button class="button button-positive">
         Back
-    </button>
-  </a>
+      </button>
+    </a>
   </ion-nav-buttons>
   <ion-content class="has-header app-bg">
 
     <span ng-include="'com/recipe/mods/ingredients.html'"></span>
 
-    <span ng-include="'com/recipe/mods/steps.html'"></span>
-
     <span ng-include="'com/recipe/mods/tools.html'"></span>
+
+    <span ng-include="'com/recipe/mods/steps.html'"></span>
 
   </ion-content>
 </ion-view>
