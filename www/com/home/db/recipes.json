@@ -54,7 +54,7 @@
           "number": 1,
           "description": "Preheat frying pan over medium heat (scaled as 4/10).",
           "img": "",
-          "timer": 5
+          "timer": 9
         },
         {
           "name": "Step Two",
@@ -134,7 +134,7 @@
           "number": 1,
           "description": "Bring water to a boil in medium pot.",
           "img": "",
-          "timer": false
+          "timer": 5
             },
         {
           "name": "Step Two",
