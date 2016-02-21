@@ -2,6 +2,7 @@
 <!-- <td-cards ng-show="home.recipe"> -->
 <td-cards ng-show="recipe.show === 0">
   <td-card ng-repeat="i in recipe.content.ingredients | orderBy:'-'"
+    on-destroy="recipe.cardDestroyed($index)"
     on-swipe-left="recipe.cardSwipedLeft($index)"
     on-swipe-right="recipe.cardSwipedRight($index)">
     <div class="card">

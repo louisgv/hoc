@@ -2,9 +2,9 @@
 <!-- <td-cards ng-show="home.recipe.content"> -->
 <td-cards ng-show="recipe.show === 1">
   <td-card ng-repeat="t in recipe.content.tools | orderBy:'-'"
-
+    on-destroy="recipe.cardDestroyed($index)"
    on-swipe-left="recipe.cardSwipedLeft($index)" on-swipe-right="recipe.cardSwipedRight($index)">
-    <div class="card">
+    <!-- <div class="card"> -->
       <div class="item item-text-wrap">
         {{t.name}}
 
@@ -12,6 +12,6 @@
       <div class="item image">
         <img ng-src="{{t.img}}" alt="" />
       </div>
-    </div>
+    <!-- </div> -->
   </td-card>
 </td-cards>
