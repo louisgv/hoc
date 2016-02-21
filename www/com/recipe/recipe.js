@@ -11,6 +11,10 @@ function RecipeCtrl($state, $stateParams, $ionicScrollDelegate, DatabaseService,
 
   recipe.nextStep = 0;
 
+  recipe.goHome = function () {
+    $state.go('home');
+  }
+
   recipe.startTimer = function (amount) {
     // console.log(amount);
     recipe.timer = amount;
@@ -18,7 +22,7 @@ function RecipeCtrl($state, $stateParams, $ionicScrollDelegate, DatabaseService,
     timer = $interval(function () {
       recipe.timer--;
       console.log(recipe.timer);
-      if (recipe.timer===0) {
+      if(recipe.timer === 0) {
         $interval.cancel(timer);
       }
     }, 1000, 0);
