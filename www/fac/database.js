@@ -13,6 +13,7 @@ function DatabaseServ($firebaseObject) {
       finished: {}
     }
   });
+
   var user;
 
   return {
@@ -20,12 +21,8 @@ function DatabaseServ($firebaseObject) {
     userName: userName,
     user: user,
     newUser: function (uname) {
-      var ref = new Firebase("https://dazzling-torch-209.firebaseio.com/users/")
-        .child(uname);
-      user = new User(ref);
-      console.log(user);
-      return user;
-      // create an instance of User (the new operator is required)
+      var ref = fb.child(uname);
+      return new User(ref);
     }
   };
 }

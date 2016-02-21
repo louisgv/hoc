@@ -12,7 +12,7 @@ function RecipeCtrl($state, $stateParams, $ionicScrollDelegate, DatabaseService)
   recipe.nextStep = 0;
 
   recipe.stateChanged = function (checked) {
-    if(checked){
+    if(checked) {
       recipe.nextStep++;
     } else {
       recipe.nextStep--;
@@ -27,15 +27,22 @@ function RecipeCtrl($state, $stateParams, $ionicScrollDelegate, DatabaseService)
   }
 
   recipe.finish = function () {
-    if (DatabaseService.user.finished[recipe.content.name]){
+    if(DatabaseService.user.finished[recipe.content.name]) {
       DatabaseService.user.exp += 100;
     } else {
       DatabaseService.user.finished[recipe.content.name] = true;
       DatabaseService.user.exp += 300 * recipe.content.level;
     }
-    if (DatabaseService.user.exp >= DatabaseService.user.level * 900){
+    if(DatabaseService.user.exp >= DatabaseService.user.level * 900) {
       ++DatabaseService.user.level;
     }
+    DatabaseService.user.$save()
+      .then(function (ref) {
+        ref.key() === DatabaseService.user; // true
+      }, function (error) {
+        console.log("Error:", error);
+      });
+
     $state.go('home');
   }
 

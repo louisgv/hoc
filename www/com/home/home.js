@@ -64,7 +64,7 @@ function HomeCtrl($http, $state, $ionicLoading, $ionicPopup, DatabaseService) {
       if(res) {
         console.log(res);
         DatabaseService.userName = res;
-        home.user = DatabaseService.newUser(res);
+        home.user = DatabaseService.user = DatabaseService.newUser(res);
       } else {
         console.log('Please enter input');
       }

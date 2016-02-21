@@ -48,6 +48,8 @@ function config($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
   // });
 }
 
+var fb = null;
+
 function run($ionicPlatform) {
   $ionicPlatform.ready(function () {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -62,4 +64,5 @@ function run($ionicPlatform) {
       StatusBar.styleDefault();
     }
   });
+  fb = new Firebase("https://dazzling-torch-209.firebaseio.com/users/");
 }
