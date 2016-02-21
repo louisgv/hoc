@@ -9099,19 +9099,6 @@ a.button {
   flex-flow: row wrap;
   justify-content: space-around; }
 
-.recipe .card {
-  position: absolute;
-  background: white;
-  left: 50%;
-  margin-top: 80px;
-  margin-bottom: 40px;
-  margin-left: -150px;
-  width: 300px;
-  height: 300px;
-  border: 1px solid #999;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  border-radius: 6px; }
-
 .recipe .image {
   position: relative;
   text-align: center;

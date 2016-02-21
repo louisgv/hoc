@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<div ng-show="recipe.show === 1">
-  <ion-list>
+<div ng-show="recipe.show === 1" class="card">
 
+  <ion-list>
     <ion-checkbox ng-repeat="i in recipe.content.tools | orderBy:'-'" ng-model="checked" ng-change="recipe.stateChanged(checked)">
-      <div class="item item-text-wrap">
+      <div class="item item-avatar item-text-wrap">
+        <img class="card-image" ng-src="{{i.img}}" alt="" />
         {{i.name}}
       </div>
-      <div class="item image">
-        <img class="card-image" ng-src="{{i.img}}" alt="" />
-      </div>
+      <!-- <div class="item image">
+
+      </div> -->
 
     </ion-checkbox>
 
-    <button class="button button-assertive button-full" ng-disabled="recipe.nextStep!==recipe.content.tools.length" ng-click="recipe.toNextStage()">
-      Next step : Tools
+    <button class="button button-assertive button-large button-full" ng-disabled="recipe.nextStep!==recipe.content.tools.length" ng-click="recipe.toNextStage()">
+      Let's cook! <i class="icon ion-chevron-right"></i>
     </button>
   </ion-list>
 </div>

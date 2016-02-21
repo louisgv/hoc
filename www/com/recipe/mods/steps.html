@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 
-<div ng-show="recipe.show === 2">
-  <ul swing-stack>
-    <li
-      swing-card
-      swing-on-throwoutleft="recipe.cardSwipedLeft($index)"
-      swing-on-throwoutright="recipe.cardSwipedRight($index)"
-      ng-repeat="s in recipe.content.steps | orderBy:'-'"
-      >
-      <div class="card">
-        <div class="item item-text-wrap">
-          {{s.name}}
-        </div>
+<div ng-show="recipe.show === 2" class="card" ng-init="ind = 0">
+  <div class="item item-text-wrap">
+    {{recipe.content.steps[ind].name}}
+  </div>
 
-        <div class="item item-text-wrap">
-          {{s.description}}
-        </div>
-      </div>
-    </li>
-  </ul>
+  <div class="item item-text-wrap">
+    {{recipe.content.steps[ind].description}}
+  </div>
+
+
+  <div class="button-bar">
+    <button class="button button-full button-large button-assertive" ng-click="ind = ind-1" ng-disabled="ind===0">
+      <i class="icon ion-chevron-left"></i> Back
+    </button>
+    <button class="button button-full button-large button-positive" ng-click="ind = ind+1" ng-disabled="ind===recipe.content.tools.length+1">
+      Next <i class="icon ion-chevron-right"></i>
+    </button>
+  </div>
+
+  <button class="button button-full button-large button-balanced" ng-disabled="ind!==recipe.content.tools.length+1" ng-click="finish()">
+    Done <i class="icon ion-checkmark"></i>
+  </button>
+
 </div>

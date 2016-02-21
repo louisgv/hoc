@@ -1,6 +1,6 @@
 "use strict()";
 
-function RecipeCtrl($scope, $state, $stateParams, $filter, DatabaseService) {
+function RecipeCtrl($scope, $state, $stateParams, $ionicScrollDelegate, $filter, DatabaseService) {
   console.log("recipeCtrl");
 
   var recipe = this;
@@ -23,7 +23,7 @@ function RecipeCtrl($scope, $state, $stateParams, $filter, DatabaseService) {
   recipe.toNextStage = function () {
     recipe.nextStep = 0;
     ++recipe.show;
-
+    $ionicScrollDelegate.scrollTop(true);
   }
 
 
