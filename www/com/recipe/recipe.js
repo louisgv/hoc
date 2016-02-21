@@ -49,6 +49,12 @@ function RecipeCtrl($state, $stateParams, DatabaseService) {
     if (recipe.content[fields[recipe.show]].length === 1 && recipe.show < 2){
       ++recipe.show;
     }
+      else if(recipe.content[fields[recipe.show]].length === 1 && recipe.show === 2) {
+          
+          
+         $state.go('home');
+      }
+      
   }
 
   if(!DatabaseService.recipes || $stateParams.index == null) {

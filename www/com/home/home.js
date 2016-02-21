@@ -6,7 +6,7 @@ function HomeCtrl($http, $state, $ionicLoading, DatabaseService) {
   console.log("HomeCtrl");
 
   var home = this;
-
+    home.colors = ["button-positive", "button-royal", "button-balanced"];
   home.chooseRecipe = function (index) {
 
     // home.recipe = angular.copy(DatabaseService.recipes[index]);

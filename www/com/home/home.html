@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <ion-view class="home">
-  <ion-content class="has-header app-bg">
+  <ion-content class="has-header app-bg padding">
 
-    <button class="button button-dark"
-      ng-repeat="r in home.recipes" ng-click="home.chooseRecipe($index)">
-      Recipe #{{$index + 1}}, level {{r.level}}
+     <center> <img src = "../../assets/img/hoc.jpg" height="30%" width ="98%" float="center"/>
+         </center>
+    <button class="button button-block padding"
+      ng-repeat="r in home.recipes" ng-click="home.chooseRecipe($index)" ng-class="home.colors[r.level-1]">
+        {{r.name}}, level {{r.level}}
     </button>
 
   </ion-content>
