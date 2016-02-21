@@ -2,21 +2,22 @@
 <!-- <td-cards ng-show="home.recipe"> -->
 <div ng-show="recipe.show === 0" class="card">
   <ion-list>
-
-    <ion-checkbox ng-repeat="i in recipe.content.ingredients | orderBy:'-'" ng-model="checked" ng-change="recipe.stateChanged(checked)">
-      <div class="item item-text-wrap item-avatar">
-        <img class="card-image" ng-src="{{i.img}}" alt="" />
-        <h2><b>{{i.name}}</b></h2>
-        <p class="item-note">
-          {{i.quantity}}
-        </p>
-      </div>
-      <a ng-href="{{i.target_url}}">
+    <ion-item ng-repeat="i in recipe.content.ingredients | orderBy:'-'">
+      <ion-checkbox ng-model="checked" ng-change="recipe.stateChanged(checked)">
+        <div class="item item-text-wrap item-avatar">
+          <img class="card-image" ng-src="{{i.img}}" alt="" />
+          <h2><b>{{i.name}}</b></h2>
+          <p class="item-note">
+            {{i.quantity}}
+          </p>
+        </div>
+      </ion-checkbox>
+      <a ng-href="{{i.target_url}}" target="_blank">
         <button class="button button-full button-assertive">
           Find at Target
         </button>
       </a>
-    </ion-checkbox>
+    </ion-item>
 
     <button class="button button-positive button-large button-full" ng-disabled="recipe.nextStep!==recipe.content.ingredients.length" ng-click="recipe.toNextStage()">
       Next step : Tools <i class="icon ion-chevron-right"></i>

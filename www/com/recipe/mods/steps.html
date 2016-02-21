@@ -9,15 +9,21 @@
     {{recipe.content.steps[ind].description}}
   </div>
 
-  <div ng-if="recipe.content.steps[ind].timer" class="">
-    <div round-progress max="max" current="current" color="#45ccce" bgcolor="#eaeaea" responsive="true" stroke="20" semi="true" rounded="true" clockwise="false" responsive="false" duration="{{recipe.content.steps[ind].timer}}" animation="easeInOutQuart" animation-delay="0"></div>
+  <div ng-if="recipe.content.steps[ind].timer" class="item item-text-wrap text-center" ng-click="recipe.startTimer(recipe.content.steps[ind].timer)">
+    Tap to Start Timer
+    <div class="progress">
+      {{recipe.timer||recipe.content.steps[ind].timer}}/{{recipe.content.steps[ind].timer}}s
+    </div>
+
+    <div round-progress max="recipe.content.steps[ind].timer" current="recipe.timer||recipe.content.steps[ind].timer" color="#45ccce" bgcolor="#eaeaea" radius="99" stroke="27" semi="false" rounded="true" clockwise="false" duration="1" animation="easeInOutQuart" animation-delay="0">
+    </div>
   </div>
 
   <div class="button-bar">
     <button class="button button-full button-large button-assertive" ng-click="ind = ind-1" ng-disabled="ind===0">
       <i class="icon ion-chevron-left"></i> Back
     </button>
-    <button class="button button-full button-large button-positive" ng-click="ind = ind+1" ng-disabled="ind===recipe.content.tools.length+1">
+    <button class="button button-full button-large button-positive" ng-click="ind = ind+1" ng-disabled="(ind===recipe.content.tools.length+1)">
       Next <i class="icon ion-chevron-right"></i>
     </button>
   </div>

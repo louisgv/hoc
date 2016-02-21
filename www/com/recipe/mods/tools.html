@@ -2,16 +2,24 @@
 <div ng-show="recipe.show === 1" class="card">
 
   <ion-list>
-    <ion-checkbox ng-repeat="i in recipe.content.tools | orderBy:'-'" ng-model="checked" ng-change="recipe.stateChanged(checked)">
-      <div class="item item-avatar item-text-wrap">
-        <img class="card-image" ng-src="{{i.img}}" alt="" />
-        <b>{{i.name}}</b>
-      </div>
-      <!-- <div class="item image">
+    <ion-item ng-repeat="i in recipe.content.tools | orderBy:'-'">
+      <ion-checkbox ng-model="checked" ng-change="recipe.stateChanged(checked)">
+        <div class="item item-avatar item-text-wrap">
+          <img class="card-image" ng-src="{{i.img}}" alt="" />
+          <b>{{i.name}}</b>
+        </div>
+        <!-- <div class="item image">
 
       </div> -->
+      </ion-checkbox>
 
-    </ion-checkbox>
+      <a ng-href="{{i.target_url}}" target="_blank">
+
+        <button class="button button-full button-assertive">
+          Find at Target
+        </button>
+      </a>
+    </ion-item>
 
     <button class="button button-assertive button-large button-full" ng-disabled="recipe.nextStep!==recipe.content.tools.length" ng-click="recipe.toNextStage()">
       Let's cook! <i class="icon ion-chevron-right"></i>

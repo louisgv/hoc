@@ -1,6 +1,6 @@
 "use strict()";
 
-function RecipeCtrl($state, $stateParams, $ionicScrollDelegate, DatabaseService) {
+function RecipeCtrl($state, $stateParams, $ionicScrollDelegate, DatabaseService, $interval) {
   console.log("recipeCtrl");
 
   var recipe = this;
@@ -10,6 +10,19 @@ function RecipeCtrl($state, $stateParams, $ionicScrollDelegate, DatabaseService)
   recipe.show = null;
 
   recipe.nextStep = 0;
+
+  recipe.startTimer = function (amount) {
+    // console.log(amount);
+    recipe.timer = amount;
+    var timer;
+    timer = $interval(function () {
+      recipe.timer--;
+      console.log(recipe.timer);
+      if (recipe.timer===0) {
+        $interval.cancel(timer);
+      }
+    }, 1000, 0);
+  }
 
   recipe.stateChanged = function (checked) {
     if(checked) {
