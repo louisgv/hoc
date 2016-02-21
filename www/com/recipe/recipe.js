@@ -1,6 +1,6 @@
 "use strict()";
 
-function RecipeCtrl($scope, $state, $stateParams, $ionicScrollDelegate, $filter, DatabaseService) {
+function RecipeCtrl($state, $stateParams, $ionicScrollDelegate, DatabaseService) {
   console.log("recipeCtrl");
 
   var recipe = this;
@@ -26,6 +26,18 @@ function RecipeCtrl($scope, $state, $stateParams, $ionicScrollDelegate, $filter,
     $ionicScrollDelegate.scrollTop(true);
   }
 
+  recipe.finish = function () {
+    if (DatabaseService.user.finished[recipe.content.name]){
+      DatabaseService.user.exp += 100;
+    } else {
+      DatabaseService.user.finished[recipe.content.name] = true;
+      DatabaseService.user.exp += 300 * recipe.content.level;
+    }
+    if (DatabaseService.user.exp >= DatabaseService.user.level * 900){
+      ++DatabaseService.user.level;
+    }
+    $state.go('home');
+  }
 
   if(!DatabaseService.recipes || $stateParams.index == null) {
     console.log(DatabaseService.recipes);

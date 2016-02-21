@@ -6,7 +6,9 @@ function HomeCtrl($http, $state, $ionicLoading, DatabaseService) {
   console.log("HomeCtrl");
 
   var home = this;
-    home.colors = ["button-positive", "button-royal", "button-balanced"];
+
+  home.colors = ["button-positive", "button-royal", "button-balanced"];
+
   home.chooseRecipe = function (index) {
 
     // home.recipe = angular.copy(DatabaseService.recipes[index]);
@@ -29,9 +31,9 @@ function HomeCtrl($http, $state, $ionicLoading, DatabaseService) {
         function (response) {
           console.log(response.data);
           home.recipes = response.data.recipe;
+          home.user = DatabaseService.user;
 
           DatabaseService.recipes = response.data.recipe;
-
           $ionicLoading.hide();
         },
         function (err) {
@@ -47,5 +49,6 @@ function HomeCtrl($http, $state, $ionicLoading, DatabaseService) {
   } else {
     console.log(DatabaseService.recipes);
     home.recipes = DatabaseService.recipes;
+    home.user = DatabaseService.user;
   }
 }

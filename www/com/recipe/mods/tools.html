@@ -5,7 +5,7 @@
     <ion-checkbox ng-repeat="i in recipe.content.tools | orderBy:'-'" ng-model="checked" ng-change="recipe.stateChanged(checked)">
       <div class="item item-avatar item-text-wrap">
         <img class="card-image" ng-src="{{i.img}}" alt="" />
-        {{i.name}}
+        <b>{{i.name}}</b>
       </div>
       <!-- <div class="item image">
 

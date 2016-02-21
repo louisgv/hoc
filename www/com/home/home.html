@@ -2,12 +2,17 @@
 <ion-view class="home">
   <ion-content class="has-header app-bg padding">
 
-     <center> <img src = "../../assets/img/hoc.jpg" height="30%" width ="98%" float="center"/>
-         </center>
-    <button class="button button-block button-large padding"
-      ng-repeat="r in home.recipes" ng-click="home.chooseRecipe($index)" ng-class="home.colors[r.level-1]">
-        {{r.name}}, level {{r.level}}
+    <center>
+      <img src="../../assets/img/hoc.jpg" height="30%" width="98%" float="center" />
+    </center>
+    <button class="button button-block button-large" ng-repeat="r in home.recipes" ng-click="home.chooseRecipe($index)" ng-class="home.colors[r.level-1]" ng-show="home.user.level>= r.level">
+      <b>{{r.name}}</b>, level {{r.level}}
     </button>
 
   </ion-content>
 </ion-view>
+<ion-footer-bar align-title="center" class="bar">
+  <div class="title">
+    <h1>LV: {{home.user.level}}, EXP: {{home.user.exp}}/{{home.user.level * 900}}</h1>
+  </div>
+</ion-footer-bar>

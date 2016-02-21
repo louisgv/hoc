@@ -7,15 +7,18 @@
       "cookTime": 10,
       "ingredients": [
         {
-          "name": "Sliced Bread - 2 Slices",
+          "name": "Sliced Bread",
+          "quantity": "2 Slices",
           "img": "http://images.sodahead.com/polls/001802485/4738455_istockphoto_3046396_bread_two_slices_xlarge.jpeg"
             },
         {
-          "name": "Butter - 1 Tablespoon",
+          "name": "Butter",
+          "quantity": "1 Tablespoon",
           "img": "http://blog.freshharvestga.com/wp-content/uploads/2014/09/Butter.jpg"
             },
         {
-          "name": "Cheese Slices - 1 Slice",
+          "name": "Sliced Cheese",
+          "quantity": "1 Slice",
           "img": "http://lackeyafjrotc.com/wp-content/uploads/2016/01/slice-of-cheese-78393-14.jpg"
             }
          ],
