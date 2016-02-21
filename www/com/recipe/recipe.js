@@ -18,9 +18,9 @@ function RecipeCtrl($state, $stateParams, DatabaseService) {
 
     newCard.id = Math.random();
 
-    // recipe.recipe.steps.push(angular.extend({}, newCard));
+    console.log(newCard);
 
-    // recipe.content[fields[recipe.show]].unshift(angular.extend({}, newCard));
+    recipe.content[fields[recipe.show]].unshift(angular.extend({}, newCard));
   }
 
   // recipe.recipe.steps.push(recipe.recipe.steps.splice(index, 1)[0]);
@@ -28,8 +28,9 @@ function RecipeCtrl($state, $stateParams, DatabaseService) {
     // console.log(recipe.recipe.steps);
 
     // console.log(recipe.content);
+    console.log(index);
 
-    recipe.content[fields[recipe.show]].splice(index, 1);
+    console.log(recipe.content[fields[recipe.show]].splice(index, 1));
 
     // console.log(index);
 

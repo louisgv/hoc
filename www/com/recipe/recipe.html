@@ -1,6 +1,13 @@
 <!DOCTYPE html>
-<ion-view class="recipe">
-  <ion-content class="has-header app-bg" no-scroll>
+<ion-view class="recipe" no-scroll>
+  <ion-nav-buttons side="left">
+    <a ng-href="/#/">
+    <button class="button button-positive">
+        Back
+    </button>
+  </a>
+  </ion-nav-buttons>
+  <ion-content class="has-header app-bg">
 
     <span ng-include="'com/recipe/mods/ingredients.html'"></span>
 
