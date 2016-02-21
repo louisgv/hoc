@@ -12,6 +12,7 @@ function RecipeCtrl($state, $stateParams, DatabaseService) {
   recipe.cardSwipedLeft = function (index) {
     // recipe.recipe.steps.push(recipe.recipe.steps[index]);
     // recipe.recipe.steps.push();
+    console.log("SWIPED LEFT");
 
     // var newCard = recipe.content[fields[fieldIndex]].splice(index, 1)[0];
     var newCard = recipe.content[fields[recipe.show]].splice(index, 1)[0];
@@ -25,6 +26,7 @@ function RecipeCtrl($state, $stateParams, DatabaseService) {
 
   // recipe.recipe.steps.push(recipe.recipe.steps.splice(index, 1)[0]);
   recipe.cardSwipedRight = function (index) {
+    console.log("SWIPED RIGHT");
     // console.log(recipe.recipe.steps);
 
     // console.log(recipe.content);
@@ -40,7 +42,7 @@ function RecipeCtrl($state, $stateParams, DatabaseService) {
     //   return console.log(recipe.content[fields[fieldIndex]]);
     // }
 
-    if (recipe.content[fields[recipe.show]].length === 0 && recipe.show < 2){
+    if (recipe.content[fields[recipe.show]].length === 1 && recipe.show < 2){
       ++recipe.show;
     }
   }

@@ -7,8 +7,8 @@
 
 angular.module('app', [
     'ionic',
-    'camera',
-    'chart.js',
+    // 'camera',
+    // 'chart.js',
     'ionic.contrib.ui.tinderCards'
   ])
   .config(config)
@@ -27,10 +27,12 @@ angular.module('app', [
     }
   });
 
-function config($stateProvider, $urlRouterProvider) {
+function config($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
 
   // if none of the above states are matched, use this as the fallback
   console.log('config');
+  $ionicConfigProvider.views.maxCache(0);
+
   $urlRouterProvider.otherwise('/');
 
   $stateProvider
