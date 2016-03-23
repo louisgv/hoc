@@ -1,113 +1,134 @@
 {
   "recipe": [
     {
-      "name": "Grilled Cheese",
+      "name": "No-Cook Overnight Oatmeal",
       "level": 1,
-      "prepTime": 5,
-      "cookTime": 10,
+      "prepTime": 4,
+      "cookTime": 0,
+        "type": "Breakfast",
+        "diet": "Vegetarian",
+        "servings": "1-2",
+        "nutritionFor": "Full Recipe",
+         "calories": 471,
+        "carbs": "75.1 g",
+        "protein": "24.3 g",
+        "fat": "9.9 g",
       "ingredients": [
         {
-          "name": "Sliced Bread",
-          "quantity": "2 Slices",
-          "img": "http://images.sodahead.com/polls/001802485/4738455_istockphoto_3046396_bread_two_slices_xlarge.jpeg",
+          "name": "Old Fashioned Oats",
+          "quantity": "1 Cup",
+          "img": "http://images.wisegeek.com/uncooked-oats.jpg",
           "target_url": "http://www.target.com/p/wonder-100-whole-wheat-sliced-bread-16oz/-/A-15080366#prodSlot=medium_1_1&term=bread",
           "target_id": "261-01-0559"
             },
         {
-          "name": "Butter",
-          "quantity": "1 Tablespoon",
-          "img": "http://blog.freshharvestga.com/wp-content/uploads/2014/09/Butter.jpg",
+          "name": "Soymilk or Dairy Milk",
+          "quantity": "1 Cup",
+          "img": "https://pixabay.com/p-435295/?no_redirect",
           "target_url": "http://www.target.com/p/kerrygold-butter-7-5-oz-spreadable-w-canola-oil-tub/-/A-23974843#prodSlot=medium_1_1&term=butter",
           "target_id": "284-12-0045"
             },
         {
-          "name": "Sliced Cheese",
-          "quantity": "1 Slice",
-          "img": "http://lackeyafjrotc.com/wp-content/uploads/2016/01/slice-of-cheese-78393-14.jpg",
+          "name": "Ground Cinnamon",
+          "quantity": "1 Teaspoon",
+          "img": "http://www.healthline.com/hlcmsresource/images/topic_centers/Diet-weight-loss/642x361_IMAGE_3_Can_You_Really_Use_Honey_and_Cinnamon_for_Weight_Loss.jpg",
           "target_url": "http://www.target.com/p/kraft-big-slice-natural-swiss-cheese-slices-8-oz-10-ct/-/A-12955150#prodSlot=medium_1_1&term=cheese+slices",
           "target_id": "284-11-0283"
+            },
+          {
+          "name": "Raisins (Optional)",
+          "quantity": "1 Tablespoon",
+          "img": "http://calraisins.org/wp-content/uploads/2013/09/Selma-Pete-Raisins.jpg",
+          "target_url": "",
+          "target_id": ""
+            },
+           {
+          "name": "Fresh Fruit",
+          "quantity": "1 Cup",
+          "img": "http://www.coastalbodies.com.au/wp-content/uploads/2014/10/Fresh-Berries.jpg",
+          "target_url": "",
+          "target_id": ""
             }
          ],
       "tools": [
         {
-          "name": "Butter Knife",
-          "img": "http://www.nthsweb.net/horvathc/Sandwich/knife.jpg",
-          "target_url": "http://www.target.com/p/room-essentials-teagan-dinner-knife/-/A-17413226#prodSlot=medium_1_2&term=butter+knife",
-          "target_id": "200-07-0598"
+          "name": "Bowl",
+          "img": "http://www.ikea.com/PIAimages/0089821_PE222881_S5.JPG",
+          "target_url": "",
+          "target_id": ""
             },
         {
-          "name": "Non-stick Frying Pan",
-          "img": "http://ecx.images-amazon.com/images/I/31SWl2ykPVL.jpg",
-          "target_url": "http://www.target.com/p/tramontina-porcelain-enamel-non-stick-8-fry-pan-black/-/A-15691601#prodSlot=medium_1_3&term=non-stick+frying+pan",
-          "target_id": "070-01-1040"
-            },
-        {
-          "name": "Spatula",
-          "img": "http://ecx.images-amazon.com/images/I/317BZZM9S5L.jpg",
-          "target_url": "http://www.target.com/p/kitchenaid-black-slotted-turner/-/A-13370347#prodSlot=medium_1_1&term=spatula",
-          "target_id": "070-05-0255"
+          "name": "Spoon",
+          "img": "https://www.creamsupplies.co.uk/temp/A196_espresso_spoon.jpg",
+          "target_url": "",
+          "target_id": ""
             }
          ],
       "steps": [
         {
           "name": "Step One",
           "number": 1,
-          "description": "Preheat frying pan over medium heat (scaled as 4/10).",
+          "description": "Put oats, cinnamon, milk and raisins in a bowl.",
           "img": "",
-          "timer": 9
+          "timer": false
         },
         {
           "name": "Step Two",
           "number": 2,
-          "description": "Generously butter one side of both slices of bread.",
+          "description": "Stir until all ingredients are combined.",
           "img": "",
           "timer": false
         },
         {
           "name": "Step Three",
           "number": 3,
-          "description": "Place one slice of bread butter side down on the frying pan. Place slice of cheese on top of the bread. Add the second buttered slice of bread with the buttered side up.",
+          "description": "Cover with saran wrap or tin foil and place in the refrigerator. Let sit overnight.",
           "img": "",
           "timer": false
             },
         {
           "name": "Step Four",
           "number": 4,
-          "description": "Allow sandwich to grill until bottom reaches desired browning - typically golden browned. Once browned, use spatula to flip sandwich to grill the other side. Allow sandwich to grill until cheese is melted and the bottom has reached desired browning.",
-          "img": "",
-          "timer": false
-            },
-        {
-          "name": "Step Five",
-          "number": 5,
-          "description": "Use spatula to remove sandwich from pan and place onto plate. Remove pan from the burner and be sure to turn off the stovetop. Cut sandwich in half and enjoy by itself or with a dip such as ketchup.",
+          "description": "In the morning, add fresh fruit of your choice to the mix and enjoy!",
           "img": "",
           "timer": false
             }
          ],
-      "variations": "Try using different kinds of bread and different cheeses next time you make grilled cheese!"
+      "variations": "Try with different combinations of fruit or add yogurt and some nuts! You can also refrigerate the oatmeal in a mason jar!"
       },
     {
       "name": "Boxed Mac and Cheese",
       "level": 1,
       "prepTime": 5,
       "cookTime": 10,
+      "type": "Meal",
+        "diet": "Vegetarian",
+        "servings": "4",
+        "nutritionFor": "Serving",
+         "calories": 240,
+        "carbs": "40.0 g",
+        "protein": "7.0 g",
+        "fat": "2.0 g",
       "ingredients": [
         {
-          "name": "Water - 6 Cups",
+          "name": "Water",
+            "quantity": "6 Cups",
           "img": "http://image.shutterstock.com/z/stock-photo-water-in-measuring-cup-on-white-background-96959351.jpg"
             },
         {
           "name": "Package of Macaroni and Cheese Dinner",
+            "quantity": "1 Box",
           "img": "http://www.kraftmacandcheese.com/products/bluebox/~/media/YouKnowYouLoveIt/com/Images/v2_bluebox_thecheesiest.png"
             },
         {
-          "name": "Margarine - 1/4 Cup",
+          "name": "Margarine",
+            "quantity": "1/4 Cup",
           "img": "http://d2eav5lh30za4j.cloudfront.net/media/gallery/0001/01/thumb_786_gallery_pinterest_thumbnail.jpeg"
             },
         {
-          "name": "Milk - 1/4 Cup",
-          "img": "http://s7d2.scene7.com/is/image/samsclub/0007874202235_A?wid=1500&hei=1500&fmt=jpg&qlt=80"
+          "name": "Milk",
+            "quantity": "1/4 Cup",
+          "img": "https://pixabay.com/p-435295/?no_redirect"
             }
          ],
       "tools": [
@@ -120,8 +141,8 @@
           "img": "http://www.gourmetsleuth.com/images/default-source/dictionary/liquid_measuring_cup-jpg.jpg?sfvrsn=3"
             },
         {
-          "name": "Medium Pot",
-          "img": "http://www.olgasflavorfactory.com/wp-content/uploads/2014/06/Stainless-Steel-Soup-Pot-300x192.jpg"
+          "name": "Medium Sauce Pan",
+          "img": "http://stat.homeshop18.com/homeshop18/images/productImages/813/nirali-e-class-die-cast-small-sauce-pot-with-lid-medium_da9d6d17ceab3d01f4d37bac0d1d2f29.jpg"
             },
         {
           "name": "Strainer",
@@ -134,14 +155,14 @@
           "number": 1,
           "description": "Bring water to a boil in medium pot.",
           "img": "",
-          "timer": 5
+          "timer": 8
             },
         {
           "name": "Step Two",
           "number": 2,
           "description": "Set cheese packet aside. Add Macaroni, and cook 7 to 8 minutes until tender.",
           "img": "",
-          "timer": true
+          "timer": 8
             },
         {
           "name": "Step Three",
@@ -160,54 +181,61 @@
          ],
       "variations": "Try serving with ketchup or your favorite hot sauce!"
       },
+ 
     {
       "name": "Instant Ramen",
       "level": 1,
-      "prepTime": 2,
+      "prepTime": 0,
       "cookTime": 10,
+        "type": "Meal",
+        "diet": "Vegetarian",
+        "servings": "2",
+        "nutritionFor": "Serving",
+         "calories": 190,
+        "carbs": "26.0 g",
+        "protein": "5.0 g",
+        "fat": "7.0 g",
       "ingredients": [
         {
-          "name": "Instant Ramen - 1 package",
+          "name": "Instant Ramen",
+            "quantity": "1 Package",
           "img": "http://c4.soap.com/images/products/p/dcs/dcs-336_1z.jpg"
             },
         {
-          "name": "Water - 2 cups",
+          "name": "Water",
+            "quantity": "2 Cups",
           "img": "http://image.shutterstock.com/z/stock-photo-water-in-measuring-cup-on-white-background-96959351.jpg"
             }
          ],
       "tools": [
         {
-          "name": "Small Sauce Pan",
+          "name": "Small Sauce pan",
           "img": "http://www.stylepark.com/db-images/cms/iittala/img/p285558_488_336-1.jpg"
             },
         {
           "name": "Bowl",
           "img": "http://www.ikea.com/PIAimages/0089821_PE222881_S5.JPG"
-            },
-        {
-          "name": "Fork",
-          "img": "http://cdnimg3.webstaurantstore.com/images/products/extra_large/45500/241884.jpg"
             }
          ],
       "steps": [
         {
           "name": "Step One",
           "number": 1,
-          "description": "Heat 2 cups of water to a boil in the sauce pan.",
+          "description": "Bring water to a boil in the sauce pan.",
           "img": "",
-          "timer": false
+          "timer": 8
             },
         {
           "name": "Step Two",
           "number": 2,
           "description": "Put ramen noodles in the boiling water.",
           "img": "",
-          "timer": false
+          "timer": 3
             },
         {
           "name": "Step Three",
           "number": 3,
-          "description": "After 3 minutes of cooking, remove the sauce pan from heat and drain excess water. Leave a little water to help mix the seasoning.",
+          "description": "Remove the sauce pan from heat and drain excess water. Leave a little water to help mix the seasoning.",
           "img": "",
           "timer": false
             },
@@ -222,20 +250,30 @@
           "name": "Step Five",
           "number": 5,
           "description": "Be sure to turn off the stovetop.",
-          "img": "",
+          "img": "http://www.chemistryland.com/CHM107Lab/Lab7/Slime/OvenOff.jpg",
           "timer": false
             }
          ],
-      "variations": "Try frying up an over easy egg with a slab of cheese on and mix it in with the noodles for more flavour and protein!"
+      "variations": "Try frying up an over easy egg and mix it in with the noodles for more flavour and protein!"
       },
+      
     {
-      "name": "Bacon",
-      "level": 2,
+      "name": "StoveTop Bacon",
+      "level": 1,
       "prepTime": 0,
       "cookTime": 10,
+        "type": "Breakfast",
+        "diet": "Normal",
+        "servings": "1",
+        "nutritionFor": "Serving",
+         "calories": 184,
+        "carbs": "0.5 g",
+        "protein": "12.6 g",
+        "fat": "14.2 g",
       "ingredients": [
         {
-          "name": "Bacon - 1 package",
+          "name": "Bacon",
+            "quantity": "4 Slices",
           "img": "http://cdn-jpg.allyou.com/sites/default/files/image/2014/01/400xvariable/i/2009/11/bacon-package-l.jpg"
             }
          ],
@@ -245,11 +283,7 @@
           "img": "http://ecx.images-amazon.com/images/I/31SWl2ykPVL.jpg"
             },
         {
-          "name": "Plate",
-          "img": "https://cdn.shopify.com/s/files/1/0076/9852/products/falcon.plate.blue.1_large.jpg?v=1428921960"
-            },
-        {
-          "name": "Tongs",
+          "name": "Tongs (Fork will suffice)",
           "img": "http://st.hzcdn.com/simgs/0a015d110188ad98_4-3249/traditional-kitchen-tongs.jpg"
             }
          ],
@@ -257,48 +291,119 @@
         {
           "name": "Step One",
           "number": 1,
-          "description": "Start with a cold pan. Bacon should be started in a cold pan, so before you turn on the heat, lay out your strips on the pan.",
+          "description": "Before you turn on the heat, lay out your strips on the frying pan.",
           "img": "",
           "timer": false
             },
         {
           "name": "Step Two",
           "number": 2,
-          "description": "Cook bacon slowly on low heat.",
+          "description": "Place frying pan on stovetop and turn on to low heat.",
           "img": "",
           "timer": false
             },
         {
           "name": "Step Three",
           "number": 3,
-          "description": "Pour off grease carefully.",
+          "description": "Using tongs (or fork), flip the bacon once grease has been released from the bacon. Flip periodically and cook until desired crispiness.",
           "img": "",
           "timer": false
             },
+
         {
           "name": "Step Four",
           "number": 4,
-          "description": "Cook until the bacon is done on both sides. Handle bacon with tongs.",
+          "description": "Let the cooked bacon drain. Using tongs (or fork) place bacon onto a plate covered with a paper towel. This will rid of the excess grease.",
           "img": "",
           "timer": false
             },
         {
           "name": "Step Five",
           "number": 5,
-          "description": "Let the cooked bacon drain.",
-          "img": "",
-          "timer": false
-            },
-        {
-          "name": "Step Six",
-          "number": 6,
-          "description": "Cook the remaining bacon in batches.",
-          "img": "",
+          "description": "Cook the remaining bacon in batches. Remember to turn off the stovetop!",
+          "img": "http://www.chemistryland.com/CHM107Lab/Lab7/Slime/OvenOff.jpg",
           "timer": false
             }
          ],
-      "variations": "Try serving bacon with other brakfast food!"
+      "variations": "Try serving bacon with other breakfast food or in a lunch sandwich!"
       },
+       {
+      "name": "Hard Boiled Eggs",
+      "level": 1,
+      "prepTime": 0,
+      "cookTime": 15,
+      "ingredients": [
+        {
+          "name": "Eggs",
+            "quantity": "3",
+          "img": "http://media.jrn.com/images/b99244621z.1_20140414111226_000_gdk5odal.1-0.jpg"
+            },
+        {
+          "name": "Water",
+            "quantity": "Enough to cover eggs by 1 inch",
+          "img": "http://image.shutterstock.com/z/stock-photo-water-in-measuring-cup-on-white-background-96959351.jpg"
+            }
+         ],
+      "tools": [
+        {
+          "name": "Pot",
+          "img": "http://ecx.images-amazon.com/images/I/41tbcx2sahL.jpg"
+            }
+         ],
+      "steps": [
+        {
+          "name": "Step One",
+          "number": 1,
+          "description": "Place eggs in the pot and cover them with cold water by 1 inch.",
+          "img": "http://www.thesimplehomemaker.com/wp-content/uploads/2012/04/100_0279-1024x768.jpg",
+          "timer": false
+            },
+        {
+          "name": "Step Two",
+          "number": 2,
+          "description": "Bring to a boil over medium-high heat.",
+          "img": "http://www.photos-public-domain.com/wp-content/uploads/2012/05/eggs-in-pot-of-boiling-water.jpg",
+          "timer": 8
+            },
+        {
+          "name": "Step Three",
+          "number": 3,
+          "description": "Cover and remove from heat. Set aside for 8 to 10 minutes.",
+          "img": "http://content.oveninfo.com/content/13580/OVI-covered-pot.jpg",
+          "timer": 7
+            },
+        {
+          "name": "Step Four",
+          "number": 4,
+          "description": "Turn off the stovetop.",
+          "img": "http://www.chemistryland.com/CHM107Lab/Lab7/Slime/OvenOff.jpg",
+          "timer": false
+            },
+        {
+          "name": "Step Five",
+          "number": 5,
+          "description": "Drain the pot. Cool the eggs in ice water. Peel the eggs once cool.",
+          "img": "http://www.simplyrecipes.com/wp-content/uploads/2014/07/hard-boiled-eggs-horiz-800.jpg",
+          "timer": false
+            }
+         ],
+      "variations": "For soft or medium eggs, bring water to a boil and then reduce to low heat. Cook for 5 minutes for soft eggs and 8 minutes for medium eggs."
+      },
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     {
       "name": "Chicken Fingers and Fries",
       "level": 2,
@@ -367,66 +472,7 @@
          ],
       "variations": "Try plum sauce with your chicken fingers!"
       },
-    {
-      "name": "Hard Boiled Egg",
-      "level": 2,
-      "prepTime": 4,
-      "cookTime": 10,
-      "ingredients": [
-        {
-          "name": "Eggs - 3",
-          "img": "http://media.jrn.com/images/b99244621z.1_20140414111226_000_gdk5odal.1-0.jpg"
-            },
-        {
-          "name": "Water - enough to cover the eggs by 1 inch",
-          "img": "http://www.foodielovesfitness.com/wp-content/uploads/2014/05/glass-of-water.jpg"
-            }
-         ],
-      "tools": [
-        {
-          "name": "Pot",
-          "img": "http://ecx.images-amazon.com/images/I/41tbcx2sahL.jpg"
-            }
-         ],
-      "steps": [
-        {
-          "name": "Step One",
-          "number": 1,
-          "description": "Place eggs in the pot and cover them with cold water by 1 inch.",
-          "img": "http://www.thesimplehomemaker.com/wp-content/uploads/2012/04/100_0279-1024x768.jpg",
-          "timer": false
-            },
-        {
-          "name": "Step Two",
-          "number": 2,
-          "description": "Bring to a boil over medium-high heat.",
-          "img": "http://www.photos-public-domain.com/wp-content/uploads/2012/05/eggs-in-pot-of-boiling-water.jpg",
-          "timer": false
-            },
-        {
-          "name": "Step Three",
-          "number": 3,
-          "description": "Cover and remove from heat. Set aside for 8 to 10 minutes.",
-          "img": "http://content.oveninfo.com/content/13580/OVI-covered-pot.jpg",
-          "timer": false
-            },
-        {
-          "name": "Step Four",
-          "number": 4,
-          "description": "Turn off the stovetop.",
-          "img": "http://www.chemistryland.com/CHM107Lab/Lab7/Slime/OvenOff.jpg",
-          "timer": false
-            },
-        {
-          "name": "Step Five",
-          "number": 5,
-          "description": "Drain the pot. Cool the eggs in ice water. Peel the eggs once cool.",
-          "img": "http://www.simplyrecipes.com/wp-content/uploads/2014/07/hard-boiled-eggs-horiz-800.jpg",
-          "timer": false
-            }
-         ],
-      "variations": "For soft or medium eggs, bring water to a boil and then reduce to low heat. Cook for 5 minutes for soft eggs and 8 minutes for medium eggs."
-      },
+   
     {
       "name": "Mashed Potatoes",
       "level": 3,
